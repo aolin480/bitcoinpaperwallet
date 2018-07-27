@@ -1,0 +1,26 @@
+$primary : #272361;
+$primaryActive : lighten($primary, 15%);
+
+.primary {
+  color: $primary;
+}
+
+.btn {
+  border-radius: 0;
+  border: none !important;
+  box-shadow: none !important;
+
+  &.btn-primary {
+    background: $primary;
+    padding: 20px 50px;
+    
+    &:hover, &:active, &:focus {
+      background: $primaryActive;
+      color: #fff;
+    }
+  }
+} 
+
+h2 {
+  margin-bottom: 1rem;
+}

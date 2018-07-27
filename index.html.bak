@@ -5288,7 +5288,8 @@ Bitcoin.Address = function (bytes) {
 	this.version = Bitcoin.Address.networkVersion;
 };
 
-Bitcoin.Address.networkVersion = 0x30; // mainnet
+// Bitcoin.Address.networkVersion = 0x30; // mainnet
+Bitcoin.Address.networkVersion = 0x67; // mainnet
 
 /**
 * Serialize this object as a standard Bitcoin address.
@@ -5665,7 +5666,9 @@ Bitcoin.ECKey = (function () {
 		this.compressed = (this.compressed == undefined) ? !!ECKey.compressByDefault : this.compressed;
 	};
 
-	ECKey.privateKeyPrefix = 0xb0; // mainnet 0xb0    testnet 0xEF
+	// ECKey.privateKeyPrefix = 0xb0; // mainnet 0xb0    
+	// testnet 0xEF
+	ECKey.privateKeyPrefix = 0x8a; // mainnet 0xb0    
 
 	/**
 	* Whether public keys should be returned compressed by default.
@@ -6836,7 +6839,7 @@ iVBORw0KGgoAAAANSUhEUgAAAlcAAAB4CAYAAADfXtdOAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
 							<span class="output" id="detailprivwif"></span>
 						</div>
 						<div class="item right">
-							<span class="label"><span id="detaillabelprivwifcomp">Private Key WIF Compressed<br />52 characters base58, starts with a</span> <span id="detailcompwifprefix">'K' or 'L'</span></span>
+							<span class="label"><span id="detaillabelprivwifcomp">Private Key WIF Compressed<br />52 characters base58, starts with a</span> <span id="detailcompwifprefix">'T'</span></span>
 							<div id="detailqrcodeprivatecomp" class="qrcode_private"></div>
 							<span class="output" id="detailprivwifcomp"></span>
 						</div>
