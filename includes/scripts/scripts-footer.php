@@ -362,7 +362,7 @@ ninja.seeder = {
     seedLimit: (function () {
         var num = Crypto.util.randomBytes(12)[11];
         return 10;
-        return 200 + Math.floor(num);
+        // return 200 + Math.floor(num);
     })(),
 
     seedCount: 0, // counter
@@ -385,8 +385,15 @@ ninja.seeder = {
         // seed mouse position X and Y when mouse movements are greater than 40ms apart.
         else if ((ninja.seeder.seedCount < ninja.seeder.seedLimit) && evt && (timeStamp - ninja.seeder.lastInputTime) > 40) {
             SecureRandom.seedTime();
-            SecureRandom.seedInt16((evt.clientX * evt.clientY));
+            /* If we're using the body as the mouse randomization container, use clientY and clientX
+            for the point position */
+            SecureRandom.seedInt16((evt.clientX * evt.clientY ));
             ninja.seeder.showPoint(evt.clientX, evt.clientY);
+
+            /* Since we're using a div for the mouse randomization, we use pageX and pageY for
+            the points to fix scrolling and point position */
+            // SecureRandom.seedInt16((evt.pageX * evt.pageY ));
+            // ninja.seeder.showPoint(evt.pageX, evt.pageY);
             ninja.seeder.seedCount++;
             ninja.seeder.lastInputTime = new Date().getTime();
             ninja.seeder.showPool();

@@ -309,6 +309,126 @@ body {
   } // #paperkeyarea
 } // #paperarea
 
+#brainarea {
+  #braincommands {
+
+    .row {
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    .label {
+      min-width: 175px;
+      display: inline-block;
+    }
+
+    .print {
+      float: right;
+      display: block;
+    }
+
+    #brainalgorithm {
+      float: right;
+      color: #aaa;
+    }
+
+    input[type=password], input[type=text] {
+      width: 250px;
+      display: inline-block;
+      margin-right: 2%;
+    }
+  } // #braincommands
+
+  #brainkeyarea {
+    max-width: 950px;
+    margin: 0 auto;
+    border: 1px dashed #ccc;
+    padding: 2% 1.75%;
+    height: 150px;
+    visibility: hidden;
+
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .public {
+      float: left;
+      .qrcode_public {
+        float: left;
+      }
+      .pubaddress {
+        display: inline-block;
+        height: 40px;
+        padding: 0 0 0 10px;
+        float: left;
+        .label {
+          font-weight: bold;
+          display: block;
+        }
+      }
+    }
+    .private {
+      text-align: right;
+      .qrcode_private {
+        display: inline-block;
+        position: relative;
+        top: 38px;
+        float: right;
+      }
+
+      .privwif {
+        margin: 0;
+        float: right;
+        text-align: right;
+        padding: 0 20px 0 0;
+        position: relative;
+        .label {
+          font-weight: bold;
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+#detailarea {
+  .row {
+    display: block;
+    margin: 0;
+  }
+
+  span {
+    label {
+      min-width: 200px;
+      display: inline-block;
+    }
+  }
+
+  span.print {
+    float: right;
+  }
+
+  input[type=text] {
+
+  }
+
+  #detailbip38commands {
+   // display: none;
+  }
+
+  #detailkeyformats {
+    font-size: 12px;
+    color: #888;
+    padding-left: 10px;
+  }
+
+  #detailprivkey {
+    max-width: 350px;
+    width: 100%;
+  }
+} // #detailarea
+
 
 #main { position: relative; }
 #menu { visibility: hidden; font-size: 90%; }
