@@ -36,10 +36,11 @@ if (! isset($coin)) {
 
         <div id="singlesafety">
             <p id="singletip1"><b>An <?= $coin; ?> wallet</b> is as simple as a single pairing of an <?= $coin; ?> address with its corresponding <?= $coin; ?> private key. Such a wallet has been generated for you in your web browser and is displayed above.</p>
-            <p id="singletip2"><b>To safeguard this wallet</b> you must print or otherwise record the <?= $coin; ?> address and private key. It is important to make a backup copy of the private key and store it in a safe location. This site does not have knowledge of your private key. If you are familiar with PGP you can download this all-in-one HTML page and check that you have an authentic version from the author of this site by matching the SHA256 hash of this HTML with the SHA256 hash available in the signed version history document linked on the footer of this site. If you leave/refresh the site or press the "Generate New Address" button then a new private key will be generated and the previously displayed private key will not be retrievable.    Your <?= $coin; ?> private key should be kept a secret. Whomever you share the private key with has access to spend all the <?= $coin . 's'; ?> associated with that address. If you print your wallet then store it in a zip lock bag to keep it safe from water. Treat a paper wallet like cash.</p>
+            <p id="singletip2"><b>To safeguard this wallet</b> you must print or otherwise record the <?= $coin; ?> address and private key. It is important to make a backup copy of the private key and store it in a safe location. This site does not have knowledge of your private key. If you leave/refresh the site or press the "Generate New Address" button then a new private key will be generated and the previously displayed private key will not be retrievable.    Your <?= $coin; ?> private key should be kept a secret. Whomever you share the private key with has access to spend all the <?= $coin . 's'; ?> associated with that address. If you print your wallet then store it in a zip lock bag to keep it safe from water. Treat a paper wallet like cash.</p>
             <p id="singletip3"><b>Add funds</b> to this wallet by instructing others to send <?= $coin . 's'; ?> to your <?= $coin; ?> address.</p>
-            <p id="singletip4"><b>Check your balance</b> by going to blockchain.ignitioncoin.org or explorer.ignitioncoin.org and entering your <?= $coin; ?> address.</p>
-            <p id="singletip5"><b>Spend your <?= $coin . 's'; ?></b> by downloading and running the latest Ignition Coin wallet (1.1.0.1 and greater) for PC, Mac, or Linux and importing the private key by going to File > Import Private Key to import your Ignition Coin address into the desktop wallet.</p>
+            <p id="singletip4"><b>Check your balance</b> by going to <a href="http://blockchain.ignitioncoin.org" target="_blank">http://blockchain.ignitioncoin.org</a> or <a href="http://explorer.ignitioncoin.org" target="_blank">http://explorer.ignitioncoin.org</a> and entering your <?= $coin; ?> address.</p>
+            <p id="singletip5"><b>Spend your <?= $coin . 's'; ?></b> by downloading and running the latest Ignition Coin wallet (1.1.0.1 and greater) for PC, Mac, or Linux and importing the private key by going to File > Import Private Key to import your Ignition Coin address into the desktop wallet. Or by using the command <span class="code">importprivkey YOUR_IC_ADDRESS YOUR_IC_ADDRESS_LABEL</span> in Debug Window > Console or command line using <span class="code">ignitiond</span></p>
+            <p>A full example would be <span class="code">importprivkey <span id="exampleprivkey">5232sdfsdfg73uu23hb4hasjdhfjdajfhjasdjhjasfjhq4r</span> "My IC Address"</span>
         </div>
     </div>
 
@@ -104,13 +105,13 @@ if (! isset($coin)) {
         <div id="braincommands" class="commands">
             <div class="row">
                 <span id="brainlabelenterpassphrase" class="label"><label for="brainpassphrase">Enter Passphrase: </label></span>
-                <input tabindex="1" type="password" id="brainpassphrase" value="" onfocus="this.select();" onkeypress="if (event.keyCode == 13) ninja.wallets.brainwallet.view();" />
+                <input tabindex="1" type="password" data-lpignore="true" id="brainpassphrase" value="" onfocus="this.select();" onkeypress="if (event.keyCode == 13) ninja.wallets.brainwallet.view();" />
                 <span><label id="brainlabelshow" for="brainpassphraseshow">Show?</label> <input type="checkbox" id="brainpassphraseshow" onchange="ninja.wallets.brainwallet.showToggle(this);" /></span>
                 <span class="print"><input type="button" name="print" id="brainprint" value="Print" onclick="window.print();" /></span>
             </div>
             <div class="row extra">
                 <span class="label" id="brainlabelconfirm"><label for="brainpassphraseconfirm">Confirm Passphrase: </label></span>
-                <input tabindex="2" type="password" id="brainpassphraseconfirm" value="" onfocus="this.select();" onkeypress="if (event.keyCode == 13) ninja.wallets.brainwallet.view();" />
+                <input tabindex="2" type="password" id="brainpassphraseconfirm" data-lpignore="true"  value="" onfocus="this.select();" onkeypress="if (event.keyCode == 13) ninja.wallets.brainwallet.view();" />
                 <span><input tabindex="3" type="button" id="brainview" value="View" onclick="ninja.wallets.brainwallet.view();" /></span>
                 <span id="brainalgorithm" class="notes right">Algorithm: SHA256(passphrase)</span>
             </div>
@@ -270,7 +271,7 @@ if (! isset($coin)) {
                     <span class="output" id="detailprivwif"></span>
                 </div>
                 <div class="item right">
-                    <span class="label"><span id="detaillabelprivwifcomp">Private Key WIF Compressed<br />52 characters base58, starts with a</span> <span id="detailcompwifprefix">'T'</span></span>
+                    <span class="label"><span id="detaillabelprivwifcomp">Private Key WIF Compressed<br />52 characters base58, starts with a</span> <span id="detailcompwifprefix">'M'</span></span>
                     <div id="detailqrcodeprivatecomp" class="qrcode_private"></div>
                     <span class="output" id="detailprivwifcomp"></span>
                 </div>

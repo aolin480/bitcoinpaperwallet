@@ -47,20 +47,20 @@ ninja.translator = {
         "en": {
             // javascript alerts or messages
             "testneteditionactivated": "TESTNET EDITION ACTIVATED",
-            "paperlabelbitcoinaddress": "Litecoin Address:",
+            "paperlabelbitcoinaddress": "Ignition Coin Address:",
             "paperlabelprivatekey": "Private Key (Wallet Import Format):",
             "paperlabelencryptedkey": "Encrypted Private Key (Password required)",
             "bulkgeneratingaddresses": "Generating addresses... ",
             "brainalertpassphrasetooshort": "The passphrase you entered is too short.\n\n",
-            "brainalertpassphrasewarning": "Warning: Choosing a strong passphrase is important to avoid brute force attempts to guess your passphrase and steal your litecoins.",
+            "brainalertpassphrasewarning": "Warning: Choosing a strong passphrase is important to avoid brute force attempts to guess your passphrase and steal your Ignition Coins.",
             "brainalertpassphrasedoesnotmatch": "The passphrase does not match the confirm passphrase.",
             "detailalertnotvalidprivatekey": "The text you entered is not a valid Private Key",
-            "detailconfirmsha256": "The text you entered is not a valid Private Key!\n\nWould you like to use the entered text as a passphrase and create a Private Key using a SHA256 hash of the passphrase?\n\nWarning: Choosing a strong passphrase is important to avoid brute force attempts to guess your passphrase and steal your litecoins.",
+            "detailconfirmsha256": "The text you entered is not a valid Private Key!\n\nWould you like to use the entered text as a passphrase and create a Private Key using a SHA256 hash of the passphrase?\n\nWarning: Choosing a strong passphrase is important to avoid brute force attempts to guess your passphrase and steal your Ignition Coins.",
             "bip38alertincorrectpassphrase": "Incorrect passphrase for this encrypted private key.",
             "bip38alertpassphraserequired": "Passphrase required for BIP38 key",
             "vanityinvalidinputcouldnotcombinekeys": "Invalid input. Could not combine keys.",
             "vanityalertinvalidinputpublickeysmatch": "Invalid input. The Public Key of both entries match. You must input two different keys.",
-            "vanityalertinvalidinputcannotmultiple": "Invalid input. Cannot multiply two public keys. Select 'Add' to add two public keys to get a litecoin address.",
+            "vanityalertinvalidinputcannotmultiple": "Invalid input. Cannot multiply two public keys. Select 'Add' to add two public keys to get a Ignition Coin address.",
             "vanityprivatekeyonlyavailable": "Only available when combining two private keys",
             "vanityalertinvalidinputprivatekeysmatch": "Invalid input. The Private Key of both entries match. You must input two different keys."
         },
@@ -73,10 +73,10 @@ ninja.translator = {
             "paperlabelencryptedkey": "Clave privada cifrada (contraseña necesaria)",
             "bulkgeneratingaddresses": "Generación de direcciones... ",
             "brainalertpassphrasetooshort": "La contraseña introducida es demasiado corta.\n\n",
-            "brainalertpassphrasewarning": "Aviso: Es importante escoger una contraseña fuerte para evitar ataques de fuerza bruta a fin de adivinarla y robar tus litecoins.",
+            "brainalertpassphrasewarning": "Aviso: Es importante escoger una contraseña fuerte para evitar ataques de fuerza bruta a fin de adivinarla y robar tus Ignition Coins.",
             "brainalertpassphrasedoesnotmatch": "Las contraseñas no coinciden.",
             "detailalertnotvalidprivatekey": "El texto que has introducido no es una clave privada válida",
-            "detailconfirmsha256": "El texto que has introducido no es una clave privada válida\n\n¿Quieres usar ese texto como si fuera una contraseña y generar una clave privada usando un hash SHA256 de tal contraseña?\n\nAviso: Es importante escoger una contraseña fuerte para evitar ataques de fuerza bruta a fin de adivinarla y robar tus litecoins.",
+            "detailconfirmsha256": "El texto que has introducido no es una clave privada válida\n\n¿Quieres usar ese texto como si fuera una contraseña y generar una clave privada usando un hash SHA256 de tal contraseña?\n\nAviso: Es importante escoger una contraseña fuerte para evitar ataques de fuerza bruta a fin de adivinarla y robar tus Ignition Coins.",
             "bip38alertincorrectpassphrase": "Incorrect passphrase for this encrypted private key.", //TODO: please translate
             "bip38alertpassphraserequired": "Passphrase required for BIP38 key", //TODO: please translate
             "vanityinvalidinputcouldnotcombinekeys": "Entrada no válida. No se puede combinar llaves.",
@@ -86,7 +86,7 @@ ninja.translator = {
             "vanityalertinvalidinputprivatekeysmatch": "Entrada no válida. La clave privada de ambos coincidan entradas. Debe introducir dos claves diferentes.",
 
             // header and menu html
-            "tagline": "Generador de carteras Litecoin de código abierto en lado de cliente con Javascript",
+            "tagline": "Generador de carteras Ignition Coin de código abierto en lado de cliente con Javascript",
             "generatelabelbitcoinaddress": "Generando dirección Litecoin...",
             "generatelabelmovemouse": "Mueve un poco el ratón para crear entropía...",
             "generatelabelkeypress": "OR type some random characters into this textbox", //TODO: please translate
@@ -114,11 +114,11 @@ ninja.translator = {
             "singleprint": "Imprimir",
             "singlelabelbitcoinaddress": "Dirección Litecoin",
             "singlelabelprivatekey": "Clave privada (formato para importar):",
-            "singletip1": "<b>A Litecoin wallet</b> is as simple as a single pairing of a Litecoin address with it's corresponding Litecoin private key. Such a wallet has been generated for you in your web browser and is displayed above.", //TODO: please translate
-            "singletip2": "<b>To safeguard this wallet</b> you must print or otherwise record the Litecoin address and private key. It is important to make a backup copy of the private key and store it in a safe location. This site does not have knowledge of your private key. If you are familiar with PGP you can download this all-in-one HTML page and check that you have an authentic version from the author of this site by matching the SHA1 hash of this HTML with the SHA1 hash available in the signed version history document linked on the footer of this site. If you leave/refresh the site or press the Generate New Address button then a new private key will be generated and the previously displayed private key will not be retrievable.  Your Litecoin private key should be kept a secret. Whomever you share the private key with has access to spend all the litecoins associated with that address. If you print your wallet then store it in a zip lock bag to keep it safe from water. Treat a paper wallet like cash.", //TODO: please translate
-            "singletip3": "<b>Add funds</b> to this wallet by instructing others to send litecoins to your Litecoin address.", //TODO: please translate
-            "singletip4": "<b>Check your balance</b> by going to block-explorer.com or explorer.litecoin.net and entering your Litecoin address.", //TODO: please translate
-            "singletip5": "<b>Spend your litecoins</b> by downloading one of the popular litecoin p2p clients and importing your private key to the p2p client wallet. Keep in mind when you import your single key to a litecoin p2p client and spend funds your key will be bundled with other private keys in the p2p client wallet. When you perform a transaction your change will be sent to another litecoin address within the p2p client wallet. You must then backup the p2p client wallet and keep it safe as your remaining litecoins will be stored there. Satoshi advised that one should never delete a wallet.", //TODO: please translate
+            "singletip1": "<b>A Ignition Coin wallet</b> is as simple as a single pairing of a Ignition Coin address with it's corresponding Ignition Coin private key. Such a wallet has been generated for you in your web browser and is displayed above.", //TODO: please translate
+            "singletip2": "<b>To safeguard this wallet</b> you must print or otherwise record the Ignition Coin address and private key. It is important to make a backup copy of the private key and store it in a safe location. This site does not have knowledge of your private key. If you are familiar with PGP you can download this all-in-one HTML page and check that you have an authentic version from the author of this site by matching the SHA1 hash of this HTML with the SHA1 hash available in the signed version history document linked on the footer of this site. If you leave/refresh the site or press the Generate New Address button then a new private key will be generated and the previously displayed private key will not be retrievable.  Your Ignition Coin private key should be kept a secret. Whomever you share the private key with has access to spend all the Ignition Coins associated with that address. If you print your wallet then store it in a zip lock bag to keep it safe from water. Treat a paper wallet like cash.", //TODO: please translate
+            "singletip3": "<b>Add funds</b> to this wallet by instructing others to send Ignition Coins to your Ignition Coin address.", //TODO: please translate
+            "singletip4": "<b>Check your balance</b> by going to block-explorer.com or explorer.litecoin.net and entering your Ignition Coin address.", //TODO: please translate
+            "singletip5": "<b>Spend your Ignition Coins</b> by downloading one of the popular Ignition Coin p2p clients and importing your private key to the p2p client wallet. Keep in mind when you import your single key to a Ignition Coin p2p client and spend funds your key will be bundled with other private keys in the p2p client wallet. When you perform a transaction your change will be sent to another Ignition Coin address within the p2p client wallet. You must then backup the p2p client wallet and keep it safe as your remaining Ignition Coins will be stored there. Satoshi advised that one should never delete a wallet.", //TODO: please translate
             "singleshare": "SHARE", //TODO: please translate
             "singlesecret": "SECRET", //TODO: please translate
 
@@ -139,14 +139,14 @@ ninja.translator = {
             "bulkprint": "Imprimir",
             "bulklabelcsv": "Valores separados por coma:",
             "bulklabelformat": "Índice,Dirección,Clave privada (formato para importar)",
-            "bulklabelq1": "¿Por qué debo usar \"Direcciones en masa\" para aceptar Litecoins en mi web?",
-            "bulka1": "La forma tradicional de aceptar litecoins en tu web requiere tener instalado el cliente oficial de litecoin (\"litecoind\"). Sin embargo muchos servicios de hosting no permiten instalar dicho cliente. Además, ejecutar el cliente en tu servidor supone que las claves privadas están también en el servidor y podrían ser comprometidas en caso de intrusión. Al usar este mecanismo, puedes subir al servidor sólo las dirección de litecoin y no las claves privadas. De esta forma no te tienes que preocupar de que alguien robe la cartera si se cuelan en el servidor.",
-            "bulklabelq2": "¿Cómo uso \"Direcciones en masa\" para aceptar litecoins en mi web?",
+            "bulklabelq1": "¿Por qué debo usar \"Direcciones en masa\" para aceptar Ignition Coins en mi web?",
+            "bulka1": "La forma tradicional de aceptar Ignition Coins en tu web requiere tener instalado el cliente oficial de Ignition Coin (\"litecoind\"). Sin embargo muchos servicios de hosting no permiten instalar dicho cliente. Además, ejecutar el cliente en tu servidor supone que las claves privadas están también en el servidor y podrían ser comprometidas en caso de intrusión. Al usar este mecanismo, puedes subir al servidor sólo las dirección de Ignition Coin y no las claves privadas. De esta forma no te tienes que preocupar de que alguien robe la cartera si se cuelan en el servidor.",
+            "bulklabelq2": "¿Cómo uso \"Direcciones en masa\" para aceptar Ignition Coins en mi web?",
             "bulklabela2li1": "Usa el tab \"Direcciones en masa\" para generar por anticipado muchas direcciones (más de 10000). Copia y pega la lista de valores separados por comas (CSV) a un archivo de texto seguro (cifrado) en tu ordenador. Guarda una copia de seguridad en algún lugar seguro.",
             "bulklabela2li2": "Importa las direcciones en la base de datos de tu servidor. No subas la cartera ni las claves públicas, o de lo contrario te lo pueden robar. Sube sólo las direcciones, ya que es lo que se va a mostrar a los clientes.",
             "bulklabela2li3": "Ofrece una alternativa en el carro de la compra de tu web para que los clientes paguen con Litecoin. Cuando el cliente elija pagar con Litecoin, les muestras una de las direcciones de la base de datos como su \"dirección de pago\" y guardas esto junto con el pedido.",
-            "bulklabela2li4": "Ahora te hace falta recibir una notificación del pago. Busca en google \"notificación de pagos litecoin\" (o \"litecoin payment notification\" en inglés) y suscríbete a alguno de los servicios que aparezcan. Hay varios de ellos, que te pueden notificar vía Web services, API, SMS, email, etc. Una vez te llegue la notificación, lo cual puede ser automatizado, entonces ya puedes procesar el pedido. Para comprobar a mano si has recibido un pago, puedes usar Block Explorer: reemplaza DIRECCION a continuación por la dirección que estés comprobando. La transacción puede tardar entre 10 minutos y una hora en ser confirmada. <br />http://block-explorer.com/address/DIRECCION<br /><br />Puedes ver las transacciones sin confirmar en: http://block-explorer.com/ <br />Las transacciones sin confirmar suelen aparecer ahí en unos 30 segundos.",
-            "bulklabela2li5": "Las litecoins que recibas se almacenarán de forma segura en la cadena de bloques. Usa la cartera original que generaste en el paso 1 para usarlas.",
+            "bulklabela2li4": "Ahora te hace falta recibir una notificación del pago. Busca en google \"notificación de pagos litecoin\" (o \"Ignition Coin payment notification\" en inglés) y suscríbete a alguno de los servicios que aparezcan. Hay varios de ellos, que te pueden notificar vía Web services, API, SMS, email, etc. Una vez te llegue la notificación, lo cual puede ser automatizado, entonces ya puedes procesar el pedido. Para comprobar a mano si has recibido un pago, puedes usar Block Explorer: reemplaza DIRECCION a continuación por la dirección que estés comprobando. La transacción puede tardar entre 10 minutos y una hora en ser confirmada. <br />http://block-explorer.com/address/DIRECCION<br /><br />Puedes ver las transacciones sin confirmar en: http://block-explorer.com/ <br />Las transacciones sin confirmar suelen aparecer ahí en unos 30 segundos.",
+            "bulklabela2li5": "Las Ignition Coins que recibas se almacenarán de forma segura en la cadena de bloques. Usa la cartera original que generaste en el paso 1 para usarlas.",
 
             // brain wallet html
             "brainlabelenterpassphrase": "Contraseña:",
@@ -173,7 +173,7 @@ ninja.translator = {
             "vanitylabelradioadd": "Añadir",
             "vanitylabelradiomultiply": "Multiplicar",
             "vanitycalc": "Calcular cartera personalizada",
-            "vanitylabelbitcoinaddress": "Dirección Litecoin personalizada:",
+            "vanitylabelbitcoinaddress": "Dirección Ignition Coin personalizada:",
             "vanitylabelnotesbitcoinaddress": "Esta es tu nueva dirección, que debería tener el prefijo deseado.",
             "vanitylabelpublickeyhex": "Clave pública personalizada (HEX):",
             "vanitylabelnotespublickeyhex": "Lo anterior es la clave pública en formato hexadecimal.",
@@ -186,9 +186,9 @@ ninja.translator = {
             "detailview": "Ver detalles",
             "detailprint": "Imprimir",
             "detaillabelnote1": "Tu clave privada es un número secreto, único, que sólo tú conoces. Se puede expresar en varios formatos. Aquí abajo mostramos la dirección y la clave pública que se corresponden con tu clave privada, así como la clave privada en los formatos más conocidos (para importar, hex, base64 y mini).",
-            "detaillabelnote2": "Litecoin v0.6+ almacena las claves públicas comprimidas. El cliente también soporta importar/exportar claves privadas usando importprivkey/dumpprivkey. El formato de las claves privadas exportadas depende de si la dirección se generó en una cartera antigua o nueva.",
+            "detaillabelnote2": "Ignition Coin v0.6+ almacena las claves públicas comprimidas. El cliente también soporta importar/exportar claves privadas usando importprivkey/dumpprivkey. El formato de las claves privadas exportadas depende de si la dirección se generó en una cartera antigua o nueva.",
             "detaillabelbitcoinaddress": "Dirección Litecoin:",
-            "detaillabelbitcoinaddresscomp": "Dirección Litecoin (comprimida):",
+            "detaillabelbitcoinaddresscomp": "Dirección Ignition Coin (comprimida):",
             "detaillabelpublickey": "Clave pública (130 caracteres [0-9A-F]):",
             "detaillabelpublickeycomp": "Clave pública (comprimida, 66 caracteres [0-9A-F]):",
             "detaillabelprivwif": "Clave privada para importar<br />51 caracteres en base58, empieza con un",
@@ -200,7 +200,7 @@ ninja.translator = {
             "detaillabelpassphrase": "BIP38 Passphrase", //TODO: please translate
             "detaildecrypt": "Decrypt BIP38", //TODO: please translate
             "detaillabelq1": "How do I make a wallet using dice? What is B6?", //TODO: please translate
-            "detaila1": "An important part of creating a Litecoin wallet is ensuring the random numbers used to create the wallet are truly random. Physical randomness is better than computer generated pseudo-randomness. The easiest way to generate physical randomness is with dice. To create a Litecoin private key you only need one six sided die which you roll 99 times. Stopping each time to record the value of the die. When recording the values follow these rules: 1=1, 2=2, 3=3, 4=4, 5=5, 6=0. By doing this you are recording the big random number, your private key, in B6 or base 6 format. You can then enter the 99 character base 6 private key into the text field above and click View Details. You will then see the Litecoin address associated with your private key. You should also make note of your private key in WIF format since it is more widely used." //TODO: please translate
+            "detaila1": "An important part of creating a Ignition Coin wallet is ensuring the random numbers used to create the wallet are truly random. Physical randomness is better than computer generated pseudo-randomness. The easiest way to generate physical randomness is with dice. To create a Ignition Coin private key you only need one six sided die which you roll 99 times. Stopping each time to record the value of the die. When recording the values follow these rules: 1=1, 2=2, 3=3, 4=4, 5=5, 6=0. By doing this you are recording the big random number, your private key, in B6 or base 6 format. You can then enter the 99 character base 6 private key into the text field above and click View Details. You will then see the Ignition Coin address associated with your private key. You should also make note of your private key in WIF format since it is more widely used." //TODO: please translate
         },
 
         "fr": {
@@ -211,10 +211,10 @@ ninja.translator = {
             "paperlabelencryptedkey": "Encrypted Private Key (Password required)", //TODO: please translate
             "bulkgeneratingaddresses": "Création de l'adresse... ",
             "brainalertpassphrasetooshort": "Le mot de passe que vous avez entré est trop court.\n\n",
-            "brainalertpassphrasewarning": "Attention: Choisir un mot de passe solide est important pour vous protéger des attaques bruteforce visant à trouver votre mot de passe et voler vos Litecoins.",
+            "brainalertpassphrasewarning": "Attention: Choisir un mot de passe solide est important pour vous protéger des attaques bruteforce visant à trouver votre mot de passe et voler vos Ignition Coins.",
             "brainalertpassphrasedoesnotmatch": "Le mot de passe ne correspond pas au mot de passe de vérification.",
             "detailalertnotvalidprivatekey": "Le texte que vous avez entré n'est pas une Clé Privée valide",
-            "detailconfirmsha256": "Le texte que vous avez entré n'est pas une Clé Privée valide!\n\nVoulez-vous utiliser le texte comme un mot de passe et créer une Clé Privée à partir d'un hash SHA256 de ce mot de passe?\n\nAttention: Choisir un mot de passe solide est important pour vous protéger des attaques bruteforce visant à trouver votre mot de passe et voler vos Litecoins.",
+            "detailconfirmsha256": "Le texte que vous avez entré n'est pas une Clé Privée valide!\n\nVoulez-vous utiliser le texte comme un mot de passe et créer une Clé Privée à partir d'un hash SHA256 de ce mot de passe?\n\nAttention: Choisir un mot de passe solide est important pour vous protéger des attaques bruteforce visant à trouver votre mot de passe et voler vos Ignition Coins.",
             "bip38alertincorrectpassphrase": "Incorrect passphrase for this encrypted private key.", //TODO: please translate
             "bip38alertpassphraserequired": "Passphrase required for BIP38 key", //TODO: please translate
             "vanityinvalidinputcouldnotcombinekeys": "Entrée non valide. Impossible de combiner les clés.",
@@ -224,7 +224,7 @@ ninja.translator = {
             "vanityalertinvalidinputprivatekeysmatch": "Entrée non valide. La clé Privée des deux entrées est identique. Vous devez entrer deux clés différentes.",
 
             // header and menu html
-            "tagline": "Générateur De Porte-Monnaie Litecoin Javascript Hors-Ligne",
+            "tagline": "Générateur De Porte-Monnaie Ignition Coin Javascript Hors-Ligne",
             "generatelabelbitcoinaddress": "Création de l'adresse Litecoin...",
             "generatelabelmovemouse": "BOUGEZ votre souris pour ajouter de l'entropie...",
             "generatelabelkeypress": "OR type some random characters into this textbox", //TODO: please translate
@@ -252,11 +252,11 @@ ninja.translator = {
             "singleprint": "Imprimer",
             "singlelabelbitcoinaddress": "Adresse Litecoin:",
             "singlelabelprivatekey": "Clé Privée (Format d'importation de porte-monnaie):",
-            "singletip1": "<b>A Litecoin wallet</b> is as simple as a single pairing of a Litecoin address with it's corresponding Litecoin private key. Such a wallet has been generated for you in your web browser and is displayed above.", //TODO: please translate
-            "singletip2": "<b>To safeguard this wallet</b> you must print or otherwise record the Litecoin address and private key. It is important to make a backup copy of the private key and store it in a safe location. This site does not have knowledge of your private key. If you are familiar with PGP you can download this all-in-one HTML page and check that you have an authentic version from the author of this site by matching the SHA1 hash of this HTML with the SHA1 hash available in the signed version history document linked on the footer of this site. If you leave/refresh the site or press the Generate New Address button then a new private key will be generated and the previously displayed private key will not be retrievable.  Your Litecoin private key should be kept a secret. Whomever you share the private key with has access to spend all the litecoins associated with that address. If you print your wallet then store it in a zip lock bag to keep it safe from water. Treat a paper wallet like cash.", //TODO: please translate
-            "singletip3": "<b>Add funds</b> to this wallet by instructing others to send litecoins to your Litecoin address.", //TODO: please translate
-            "singletip4": "<b>Check your balance</b> by going to explorer.litecoin.net or block-explorer.com and entering your Litecoin address.", //TODO: please translate
-            "singletip5": "<b>Spend your litecoins</b> by downloading one of the popular litecoin p2p clients and importing your private key to the p2p client wallet. Keep in mind when you import your single key to a litecoin p2p client and spend funds your key will be bundled with other private keys in the p2p client wallet. When you perform a transaction your change will be sent to another litecoin address within the p2p client wallet. You must then backup the p2p client wallet and keep it safe as your remaining litecoins will be stored there. Satoshi advised that one should never delete a wallet.", //TODO: please translate
+            "singletip1": "<b>A Ignition Coin wallet</b> is as simple as a single pairing of a Ignition Coin address with it's corresponding Ignition Coin private key. Such a wallet has been generated for you in your web browser and is displayed above.", //TODO: please translate
+            "singletip2": "<b>To safeguard this wallet</b> you must print or otherwise record the Ignition Coin address and private key. It is important to make a backup copy of the private key and store it in a safe location. This site does not have knowledge of your private key. If you are familiar with PGP you can download this all-in-one HTML page and check that you have an authentic version from the author of this site by matching the SHA1 hash of this HTML with the SHA1 hash available in the signed version history document linked on the footer of this site. If you leave/refresh the site or press the Generate New Address button then a new private key will be generated and the previously displayed private key will not be retrievable.  Your Ignition Coin private key should be kept a secret. Whomever you share the private key with has access to spend all the Ignition Coins associated with that address. If you print your wallet then store it in a zip lock bag to keep it safe from water. Treat a paper wallet like cash.", //TODO: please translate
+            "singletip3": "<b>Add funds</b> to this wallet by instructing others to send Ignition Coins to your Ignition Coin address.", //TODO: please translate
+            "singletip4": "<b>Check your balance</b> by going to explorer.litecoin.net or block-explorer.com and entering your Ignition Coin address.", //TODO: please translate
+            "singletip5": "<b>Spend your Ignition Coins</b> by downloading one of the popular Ignition Coin p2p clients and importing your private key to the p2p client wallet. Keep in mind when you import your single key to a Ignition Coin p2p client and spend funds your key will be bundled with other private keys in the p2p client wallet. When you perform a transaction your change will be sent to another Ignition Coin address within the p2p client wallet. You must then backup the p2p client wallet and keep it safe as your remaining Ignition Coins will be stored there. Satoshi advised that one should never delete a wallet.", //TODO: please translate
             "singleshare": "PARTAGER",
             "singlesecret": "SECRET",
 
@@ -278,14 +278,14 @@ ninja.translator = {
             "bulkprint": "Imprimer",
             "bulklabelcsv": "Valeurs Séparées Par Des Virgules (CSV):",
             "bulklabelformat": "Index,Adresse,Clé Privée (WIF)",
-            "bulklabelq1": "Pourquoi utiliserais-je un Porte-monnaie en vrac pour accepter les Litecoins sur mon site web?",
-            "bulka1": "L'approche traditionnelle pour accepter des Litecoins sur votre site web requière l'installation du logiciel Litecoin officiel (\"litecoind\"). Plusieurs hébergeurs ne supportent pas l'installation du logiciel Litecoin. De plus, faire fonctionner le logiciel Litecoin sur votre serveur web signifie que vos clés privées sont hébergées sur le serveur et pourraient donc être volées si votre serveur web était compromis. En utilisant un Porte-monnaie en vrac, vous pouvez publiquer seulement les adresses Litecoin sur votre serveur et non les clés privées. Vous n'avez alors pas à vous inquiéter du risque de vous faire voler votre porte-monnaie si votre serveur était compromis.",
-            "bulklabelq2": "Comment utiliser le Porte-monnaie en vrac pour utiliser le Litecoin sur mon site web?",
-            "bulklabela2li1": "Utilisez le Porte-monnaie en vrac pour pré-générer une large quantité d'adresses Litecoin (10,000+). Copiez collez les données séparées par des virgules (CSV) dans un fichier texte sécurisé dans votre ordinateur. Sauvegardez ce fichier dans un endroit sécurisé.",
-            "bulklabela2li2": "Importez les adresses Litecoin dans une base de donnée sur votre serveur web. (N'ajoutez pas le porte-monnaie ou les clés privées sur votre serveur web, sinon vous courrez le risque de vous faire voler si votre serveur est compromis. Ajoutez seulement les adresses Litecoin qui seront visibles à vos visiteurs.)",
+            "bulklabelq1": "Pourquoi utiliserais-je un Porte-monnaie en vrac pour accepter les Ignition Coins sur mon site web?",
+            "bulka1": "L'approche traditionnelle pour accepter des Ignition Coins sur votre site web requière l'installation du logiciel Ignition Coin officiel (\"litecoind\"). Plusieurs hébergeurs ne supportent pas l'installation du logiciel Litecoin. De plus, faire fonctionner le logiciel Ignition Coin sur votre serveur web signifie que vos clés privées sont hébergées sur le serveur et pourraient donc être volées si votre serveur web était compromis. En utilisant un Porte-monnaie en vrac, vous pouvez publiquer seulement les adresses Ignition Coin sur votre serveur et non les clés privées. Vous n'avez alors pas à vous inquiéter du risque de vous faire voler votre porte-monnaie si votre serveur était compromis.",
+            "bulklabelq2": "Comment utiliser le Porte-monnaie en vrac pour utiliser le Ignition Coin sur mon site web?",
+            "bulklabela2li1": "Utilisez le Porte-monnaie en vrac pour pré-générer une large quantité d'adresses Ignition Coin (10,000+). Copiez collez les données séparées par des virgules (CSV) dans un fichier texte sécurisé dans votre ordinateur. Sauvegardez ce fichier dans un endroit sécurisé.",
+            "bulklabela2li2": "Importez les adresses Ignition Coin dans une base de donnée sur votre serveur web. (N'ajoutez pas le porte-monnaie ou les clés privées sur votre serveur web, sinon vous courrez le risque de vous faire voler si votre serveur est compromis. Ajoutez seulement les adresses Ignition Coin qui seront visibles à vos visiteurs.)",
             "bulklabela2li3": "Ajoutez une option dans votre panier en ligne pour que vos clients puissent vous payer en Litecoin. Quand un client choisi de vous payer en Litecoin, vous pouvez afficher une des adresses de votre base de donnée comme \"adresse de paiment\" pour votre client et sauvegarder cette adresse avec sa commande.",
-            "bulklabela2li4": "Vous avez maintenant besoin d'être avisé quand le paiement est reçu. Cherchez \"litecoin payment notification\" sur Google et inscrivez-vous à un service de notification de paiement Litecoin. Il y a plusieurs services qui vous avertiront via des services Web, API, SMS, Email, etc. Une fois que vous avez reçu la notification, qui devrait être programmée automatiquement, vous pouvez traiter la commande de votre client. Pour vérifier manuellement si un paiement est arrivé, vous pouvez utiliser Block Explorer. Remplacez ADRESSE par l'adresse Litecoin que vous souhaitez vérifier. La confirmation de la transaction pourrait prendre de 10 à 60 minutes pour être confirmée.<br />http://block-explorer.com/address/ADRESSE<br /><br />Les transactions non confirmées peuvent être visualisées ici: http://block-explorer.com/ <br />Vous devriez voir la transaction à l'intérieur de 30 secondes.",
-            "bulklabela2li5": "Les Litecoins vos s'accumuler de façon sécuritaire dans la chaîne de blocs. Utilisez le porte-monnaie original que vous avez généré à l'étape 1 pour les dépenser.",
+            "bulklabela2li4": "Vous avez maintenant besoin d'être avisé quand le paiement est reçu. Cherchez \"Ignition Coin payment notification\" sur Google et inscrivez-vous à un service de notification de paiement Litecoin. Il y a plusieurs services qui vous avertiront via des services Web, API, SMS, Email, etc. Une fois que vous avez reçu la notification, qui devrait être programmée automatiquement, vous pouvez traiter la commande de votre client. Pour vérifier manuellement si un paiement est arrivé, vous pouvez utiliser Block Explorer. Remplacez ADRESSE par l'adresse Ignition Coin que vous souhaitez vérifier. La confirmation de la transaction pourrait prendre de 10 à 60 minutes pour être confirmée.<br />http://block-explorer.com/address/ADRESSE<br /><br />Les transactions non confirmées peuvent être visualisées ici: http://block-explorer.com/ <br />Vous devriez voir la transaction à l'intérieur de 30 secondes.",
+            "bulklabela2li5": "Les Ignition Coins vos s'accumuler de façon sécuritaire dans la chaîne de blocs. Utilisez le porte-monnaie original que vous avez généré à l'étape 1 pour les dépenser.",
 
             // brain wallet html
             "brainlabelenterpassphrase": "Entrez votre mot de passe: ",
@@ -312,7 +312,7 @@ ninja.translator = {
             "vanitylabelradioadd": "Ajouter",
             "vanitylabelradiomultiply": "Multiplier",
             "vanitycalc": "Calculer Le Porte-monnaie Vanité",
-            "vanitylabelbitcoinaddress": "Adresse Litecoin Vanité:",
+            "vanitylabelbitcoinaddress": "Adresse Ignition Coin Vanité:",
             "vanitylabelnotesbitcoinaddress": "Ci-haut est votre nouvelle adresse qui devrait inclure le préfix requis.",
             "vanitylabelpublickeyhex": "Clé Public Vanité (HEX):",
             "vanitylabelnotespublickeyhex": "Celle-ci est la Clé Publique dans le format hexadécimal. ",
@@ -324,10 +324,10 @@ ninja.translator = {
             "detailkeyformats": "Key Formats: WIF, WIFC, HEX, B64, B6, MINI, BIP38",
             "detailview": "Voir les détails",
             "detailprint": "Imprimer",
-            "detaillabelnote1": "Votre Clé Privée Litecoin est un nombre secret que vous êtes le seul à connaître. Il peut être encodé sous la forme d'un nombre sous différents formats. Ci-bas, nous affichons l'adresse Litecoin et la Clé Publique qui corresponds à la Clé Privée ainsi que la Clé Privée dans les formats d'encodage les plus populaires (WIF, HEX, B64, MINI).",
-            "detaillabelnote2": "Litecoin v0.6+ conserve les clés publiques dans un format compressé. Le logiciel supporte maintenant aussi l'importation et l'exportation de clés privées avec importprivkey/dumpprivkey. Le format de la clé privée exportée est déterminé selon la version du porte-monnaie Litecoin.",
+            "detaillabelnote1": "Votre Clé Privée Ignition Coin est un nombre secret que vous êtes le seul à connaître. Il peut être encodé sous la forme d'un nombre sous différents formats. Ci-bas, nous affichons l'adresse Ignition Coin et la Clé Publique qui corresponds à la Clé Privée ainsi que la Clé Privée dans les formats d'encodage les plus populaires (WIF, HEX, B64, MINI).",
+            "detaillabelnote2": "Ignition Coin v0.6+ conserve les clés publiques dans un format compressé. Le logiciel supporte maintenant aussi l'importation et l'exportation de clés privées avec importprivkey/dumpprivkey. Le format de la clé privée exportée est déterminé selon la version du porte-monnaie Litecoin.",
             "detaillabelbitcoinaddress": "Adresse Litecoin:",
-            "detaillabelbitcoinaddresscomp": "Adresse Litecoin (compressée):",
+            "detaillabelbitcoinaddresscomp": "Adresse Ignition Coin (compressée):",
             "detaillabelpublickey": "Clé Publique (130 caractères [0-9A-F]):",
             "detaillabelpublickeycomp": "Clé Publique (compressée, 66 caractères [0-9A-F]):",
             "detaillabelprivwif": "Clé Privée WIF<br />51 caractères base58, débute avec un a",
@@ -339,7 +339,7 @@ ninja.translator = {
             "detaillabelpassphrase": "BIP38 Passphrase", //TODO: please translate
             "detaildecrypt": "Decrypt BIP38", //TODO: please translate
             "detaillabelq1": "How do I make a wallet using dice? What is B6?", //TODO: please translate
-            "detaila1": "An important part of creating a Litecoin wallet is ensuring the random numbers used to create the wallet are truly random. Physical randomness is better than computer generated pseudo-randomness. The easiest way to generate physical randomness is with dice. To create a Litecoin private key you only need one six sided die which you roll 99 times. Stopping each time to record the value of the die. When recording the values follow these rules: 1=1, 2=2, 3=3, 4=4, 5=5, 6=0. By doing this you are recording the big random number, your private key, in B6 or base 6 format. You can then enter the 99 character base 6 private key into the text field above and click View Details. You will then see the Litecoin address associated with your private key. You should also make note of your private key in WIF format since it is more widely used." //TODO: please translate
+            "detaila1": "An important part of creating a Ignition Coin wallet is ensuring the random numbers used to create the wallet are truly random. Physical randomness is better than computer generated pseudo-randomness. The easiest way to generate physical randomness is with dice. To create a Ignition Coin private key you only need one six sided die which you roll 99 times. Stopping each time to record the value of the die. When recording the values follow these rules: 1=1, 2=2, 3=3, 4=4, 5=5, 6=0. By doing this you are recording the big random number, your private key, in B6 or base 6 format. You can then enter the 99 character base 6 private key into the text field above and click View Details. You will then see the Ignition Coin address associated with your private key. You should also make note of your private key in WIF format since it is more widely used." //TODO: please translate
         },
 
         "el": {
@@ -350,10 +350,10 @@ ninja.translator = {
             "paperlabelencryptedkey": "Encrypted Private Key (Password required)", //TODO: please translate
             "bulkgeneratingaddresses": "Δημιουργία διευθύνσεων... ",
             "brainalertpassphrasetooshort": "Η φράση κωδικός που δώσατε είναι πολύ αδύναμη.\n\n",
-            "brainalertpassphrasewarning": "Προσοχή: Είναι σημαντικό να επιλέξετε μια ισχυρή φράση κωδικό που θα σας προφυλάξει από απόπειρες παραβίασής της τύπου brute force και κλοπή των litecoins σας.",
+            "brainalertpassphrasewarning": "Προσοχή: Είναι σημαντικό να επιλέξετε μια ισχυρή φράση κωδικό που θα σας προφυλάξει από απόπειρες παραβίασής της τύπου brute force και κλοπή των Ignition Coins σας.",
             "brainalertpassphrasedoesnotmatch": "Η φράση κωδικός και η επιβεβαίωση της δε συμφωνούν.",
             "detailalertnotvalidprivatekey": "Το κείμενο που εισάγατε δεν αντιστοιχεί σε έγκυρο Προσωπικό Κλειδί",
-            "detailconfirmsha256": "Το κείμενο που εισάγατε δεν αντιστοιχεί σε έγκυρο Προσωπικό Κλειδί!\n\nΘα θέλατε να χρησιμοποιηθεί το κείμενο ως κωδικός για τη δημιουργία ενός Προσωπικού Κλειδιού που θα δημιουργηθεί από το SHA265 hash της φράσης κωδικού;\n\nΠροσοχή: Είναι σημαντικό να επιλέξετε έναν ισχυρό κωδικό ώστε να είναι δύσκολο να τον μαντέψει κάποιος και να κλέψει τα litecoins σας.",
+            "detailconfirmsha256": "Το κείμενο που εισάγατε δεν αντιστοιχεί σε έγκυρο Προσωπικό Κλειδί!\n\nΘα θέλατε να χρησιμοποιηθεί το κείμενο ως κωδικός για τη δημιουργία ενός Προσωπικού Κλειδιού που θα δημιουργηθεί από το SHA265 hash της φράσης κωδικού;\n\nΠροσοχή: Είναι σημαντικό να επιλέξετε έναν ισχυρό κωδικό ώστε να είναι δύσκολο να τον μαντέψει κάποιος και να κλέψει τα Ignition Coins σας.",
             "bip38alertincorrectpassphrase": "Λάθος φράση κωδικός αποκρυπτογράφησης Προσωπικού Κλειδιού.",
             "bip38alertpassphraserequired": "Απαιτείται η φράση κωδικός για το Κλειδί BIP38",
             "vanityinvalidinputcouldnotcombinekeys": "Μη έγκυρη εισαγωγή. Ο συνδυασμός των κλειδιών είναι αδύνατος.",
@@ -391,11 +391,11 @@ ninja.translator = {
             "singleprint": "Εκτύπωση",
             "singlelabelbitcoinaddress": "Διεύθυνση Litecoin:",
             "singlelabelprivatekey": "Προσωπικό Κλειδί (Μορφή εισαγωγής σε πορτοφόλι):",
-            "singletip1": "<b>A Litecoin wallet</b> is as simple as a single pairing of a Litecoin address with it's corresponding Litecoin private key. Such a wallet has been generated for you in your web browser and is displayed above.", //TODO: please translate
-            "singletip2": "<b>To safeguard this wallet</b> you must print or otherwise record the Litecoin address and private key. It is important to make a backup copy of the private key and store it in a safe location. This site does not have knowledge of your private key. If you are familiar with PGP you can download this all-in-one HTML page and check that you have an authentic version from the author of this site by matching the SHA1 hash of this HTML with the SHA1 hash available in the signed version history document linked on the footer of this site. If you leave/refresh the site or press the Generate New Address button then a new private key will be generated and the previously displayed private key will not be retrievable.  Your Litecoin private key should be kept a secret. Whomever you share the private key with has access to spend all the litecoins associated with that address. If you print your wallet then store it in a zip lock bag to keep it safe from water. Treat a paper wallet like cash.", //TODO: please translate
-            "singletip3": "<b>Add funds</b> to this wallet by instructing others to send litecoins to your Litecoin address.", //TODO: please translate
-            "singletip4": "<b>Check your balance</b> by going to explorer.litecoin.net or block-explorer.com and entering your Litecoin address.", //TODO: please translate
-            "singletip5": "<b>Spend your litecoins</b> by downloading one of the popular litecoin p2p clients and importing your private key to the p2p client wallet. Keep in mind when you import your single key to a litecoin p2p client and spend funds your key will be bundled with other private keys in the p2p client wallet. When you perform a transaction your change will be sent to another litecoin address within the p2p client wallet. You must then backup the p2p client wallet and keep it safe as your remaining litecoins will be stored there. Satoshi advised that one should never delete a wallet.", //TODO: please translate
+            "singletip1": "<b>A Ignition Coin wallet</b> is as simple as a single pairing of a Ignition Coin address with it's corresponding Ignition Coin private key. Such a wallet has been generated for you in your web browser and is displayed above.", //TODO: please translate
+            "singletip2": "<b>To safeguard this wallet</b> you must print or otherwise record the Ignition Coin address and private key. It is important to make a backup copy of the private key and store it in a safe location. This site does not have knowledge of your private key. If you are familiar with PGP you can download this all-in-one HTML page and check that you have an authentic version from the author of this site by matching the SHA1 hash of this HTML with the SHA1 hash available in the signed version history document linked on the footer of this site. If you leave/refresh the site or press the Generate New Address button then a new private key will be generated and the previously displayed private key will not be retrievable.  Your Ignition Coin private key should be kept a secret. Whomever you share the private key with has access to spend all the Ignition Coins associated with that address. If you print your wallet then store it in a zip lock bag to keep it safe from water. Treat a paper wallet like cash.", //TODO: please translate
+            "singletip3": "<b>Add funds</b> to this wallet by instructing others to send Ignition Coins to your Ignition Coin address.", //TODO: please translate
+            "singletip4": "<b>Check your balance</b> by going to explorer.litecoin.net or block-explorer.com and entering your Ignition Coin address.", //TODO: please translate
+            "singletip5": "<b>Spend your Ignition Coins</b> by downloading one of the popular Ignition Coin p2p clients and importing your private key to the p2p client wallet. Keep in mind when you import your single key to a Ignition Coin p2p client and spend funds your key will be bundled with other private keys in the p2p client wallet. When you perform a transaction your change will be sent to another Ignition Coin address within the p2p client wallet. You must then backup the p2p client wallet and keep it safe as your remaining Ignition Coins will be stored there. Satoshi advised that one should never delete a wallet.", //TODO: please translate
             "singleshare": "SHARE", //TODO: please translate
             "singlesecret": "SECRET", //TODO: please translate
 
@@ -417,13 +417,13 @@ ninja.translator = {
             "bulklabelcsv": "Τιμές που χωρίζονται με κόμμα (CSV):",
             "bulklabelformat": "Δείκτης,Διεύθυνση,Προσωπικό Κλειδί (WIF)",
             "bulklabelq1": "Γιατί να χρησιμοποιήσω Πολλαπλά Πορτοφόλια στην ιστοσελίδα μου;",
-            "bulka1": "Ο παραδοσιακός τρόπος για να δέχεστε litecoins στην ιστοσελίδα σας, απαιτεί την εγκατάσταση και λειτουργία του επίσημου δαίμονα πελάτη litecoin (\"litecoind\"). Αρκετά πακέτα φιλοξενίας δεν υποστηρίζουν την εγκατάστασή του. Επιπλέον, η εκτέλεση του πελάτη litecoin στον web server σας συνεπάγεται και τη φιλοξενία των προσωπικών σας κλειδιών στον ίδιο server, τα οποία μπορεί να υποκλαπούν αν ο server πέσει θύμα επίθεσης. Χρησιμοποιώντας τα Πολλαπλά Πορτοφόλια, ανεβάζετε στον server σας μόνο τις διευθύνσεις Litecoin κι όχι τα προσωπικά κλειδιά. Με αυτό τον τρόπο δεν χρειάζεται να ανησυχείτε μήπως υποκλαπεί το πορτοφόλι σας.",
-            "bulklabelq2": "Πως χρησιμοποιώ τα Πολλαπλά Πορτοφόλια για να δέχομαι litecoins στην ιστοσελίδα μου;",
-            "bulklabela2li1": "Χρησιμοποιήστε την καρτέλα Πολλαπλά Πορτοφόλια για να δημιουργήσετε έναν μεγάλο αριθμό διευθύνσεων Litecoin (10.000+). Αντιγράψτε κι επικολλήστε τη λίστα των χωρισμένων με κόμμα τιμών (CSV) που δημιουργήθηκαν, σε ένα ασφαλές αρχείο στον υπολογιστή σας. Αντιγράψτε το αρχείο που δημιουργήσατε σε μια ασφαλή τοποθεσία.",
-            "bulklabela2li2": "Εισάγετε τις διευθύνσεις Litecoin σε έναν πίνακα βάσης δεδομένων στον web server σας. (Μην αντιγράψετε τα προσωπικά κλειδιά ή το πορτοφόλι στον web server γιατί διακινδυνεύετε να σας τα κλέψουν. Μόνο τις διευθύνσεις Litecoin που θα εμφανίζονται στους πελάτες.)",
+            "bulka1": "Ο παραδοσιακός τρόπος για να δέχεστε Ignition Coins στην ιστοσελίδα σας, απαιτεί την εγκατάσταση και λειτουργία του επίσημου δαίμονα πελάτη Ignition Coin (\"litecoind\"). Αρκετά πακέτα φιλοξενίας δεν υποστηρίζουν την εγκατάστασή του. Επιπλέον, η εκτέλεση του πελάτη Ignition Coin στον web server σας συνεπάγεται και τη φιλοξενία των προσωπικών σας κλειδιών στον ίδιο server, τα οποία μπορεί να υποκλαπούν αν ο server πέσει θύμα επίθεσης. Χρησιμοποιώντας τα Πολλαπλά Πορτοφόλια, ανεβάζετε στον server σας μόνο τις διευθύνσεις Ignition Coin κι όχι τα προσωπικά κλειδιά. Με αυτό τον τρόπο δεν χρειάζεται να ανησυχείτε μήπως υποκλαπεί το πορτοφόλι σας.",
+            "bulklabelq2": "Πως χρησιμοποιώ τα Πολλαπλά Πορτοφόλια για να δέχομαι Ignition Coins στην ιστοσελίδα μου;",
+            "bulklabela2li1": "Χρησιμοποιήστε την καρτέλα Πολλαπλά Πορτοφόλια για να δημιουργήσετε έναν μεγάλο αριθμό διευθύνσεων Ignition Coin (10.000+). Αντιγράψτε κι επικολλήστε τη λίστα των χωρισμένων με κόμμα τιμών (CSV) που δημιουργήθηκαν, σε ένα ασφαλές αρχείο στον υπολογιστή σας. Αντιγράψτε το αρχείο που δημιουργήσατε σε μια ασφαλή τοποθεσία.",
+            "bulklabela2li2": "Εισάγετε τις διευθύνσεις Ignition Coin σε έναν πίνακα βάσης δεδομένων στον web server σας. (Μην αντιγράψετε τα προσωπικά κλειδιά ή το πορτοφόλι στον web server γιατί διακινδυνεύετε να σας τα κλέψουν. Μόνο τις διευθύνσεις Ignition Coin που θα εμφανίζονται στους πελάτες.)",
             "bulklabela2li3": "Παρέχετε στο καλάθι αγορών σας μια επιλογή για πληρωμή σε Litecoin. Όταν ο πελάτης επιλέγει να πληρώσει με Litecoin, θα εμφανίσετε σε αυτόν μια από τις διευθύνσεις από τη βάση δεδομένων, ως την «προσωπική του διεύθυνση πληρωμής» την οποία θα αποθηκεύσετε μαζί με την εντολή αγοράς.",
-            "bulklabela2li4": "Τώρα χρειάζεται να ειδοποιηθείτε μόλις γίνει η πληρωμή. Ψάξτε στο Google για «litecoin payment notification» κι εγγραφείτε σε τουλάχιστο μία υπηρεσία ειδοποίησης πληρωμής. Υπάρχουν διάφορες υπηρεσίες που θα σας ειδοποιήσουν με Web υπηρεσίες, API, SMS, Email, κλπ. Όταν λάβετε την ειδοποίηση, η οποία μπορεί να αυτοματοποιηθεί προγραμματιστικά, εκτελείτε την εντολή του πελάτη. Για να ελέγξετε χειροκίνητα την πληρωμή μπορείτε να χρησιμοποιήσετε τον Block Explorer. Αντικαταστήστε το THEADDRESSGOESHERE με τη Litecoin διεύθυνσή σας. Η επιβεβαίωση της πληρωμής ενδέχεται να διαρκέσει από δέκα λεπτά έως μία ώρα.<br />http://block-explorer.com/address/THEADDRESSGOESHERE<br /><br />Μπορείτε να δείτε τις συναλλαγές που δεν έχουν επιβεβαιωθεί στο: http://block-explorer.com/ <br />Θα πρέπει να δείτε τη συναλλαγή εκεί εντός 30 δευτερολέπτων.",
-            "bulklabela2li5": "Τα Litecoins θα συσσωρεύονται με ασφάλεια στην αλυσίδα των μπλοκ. Χρησιμοποιήστε το αρχικό πορτοφόλι που δημιουργήσατε στο βήμα 1 για να τα ξοδέψετε.",
+            "bulklabela2li4": "Τώρα χρειάζεται να ειδοποιηθείτε μόλις γίνει η πληρωμή. Ψάξτε στο Google για «Ignition Coin payment notification» κι εγγραφείτε σε τουλάχιστο μία υπηρεσία ειδοποίησης πληρωμής. Υπάρχουν διάφορες υπηρεσίες που θα σας ειδοποιήσουν με Web υπηρεσίες, API, SMS, Email, κλπ. Όταν λάβετε την ειδοποίηση, η οποία μπορεί να αυτοματοποιηθεί προγραμματιστικά, εκτελείτε την εντολή του πελάτη. Για να ελέγξετε χειροκίνητα την πληρωμή μπορείτε να χρησιμοποιήσετε τον Block Explorer. Αντικαταστήστε το THEADDRESSGOESHERE με τη Ignition Coin διεύθυνσή σας. Η επιβεβαίωση της πληρωμής ενδέχεται να διαρκέσει από δέκα λεπτά έως μία ώρα.<br />http://block-explorer.com/address/THEADDRESSGOESHERE<br /><br />Μπορείτε να δείτε τις συναλλαγές που δεν έχουν επιβεβαιωθεί στο: http://block-explorer.com/ <br />Θα πρέπει να δείτε τη συναλλαγή εκεί εντός 30 δευτερολέπτων.",
+            "bulklabela2li5": "Τα Ignition Coins θα συσσωρεύονται με ασφάλεια στην αλυσίδα των μπλοκ. Χρησιμοποιήστε το αρχικό πορτοφόλι που δημιουργήσατε στο βήμα 1 για να τα ξοδέψετε.",
 
             // brain wallet html
             "brainlabelenterpassphrase": "Εισάγετε κωδικό: ",
@@ -441,7 +441,7 @@ ninja.translator = {
             "vanitylabelstep1publickey": "Βήμα 1 Δημόσιο Κλειδί:",
             "vanitylabelstep1pubnotes": "Αντιγράψτε κι επικολλήστε το παραπάνω στο πεδίο Your-Part-Public-Key στην ιστοσελίδα του Vanity Pool.",
             "vanitylabelstep1privatekey": "Step 1 Προσωπικό Κλειδί:",
-            "vanitylabelstep1privnotes": "Αντιγράψτε κι επικολλήστε το παραπάνω Προσωπικό Κλειδί σε ένα αρχείο κειμένου. Ιδανικά, αποθηκεύστε το σε έναν κρυπτογραφημένο δίσκο. Θα το χρειαστείτε για να ανακτήσετε το Litecoin Προσωπικό Κλειδί όταν βρεθεί το πρόθεμά σας από το Vanity Pool.",
+            "vanitylabelstep1privnotes": "Αντιγράψτε κι επικολλήστε το παραπάνω Προσωπικό Κλειδί σε ένα αρχείο κειμένου. Ιδανικά, αποθηκεύστε το σε έναν κρυπτογραφημένο δίσκο. Θα το χρειαστείτε για να ανακτήσετε το Ignition Coin Προσωπικό Κλειδί όταν βρεθεί το πρόθεμά σας από το Vanity Pool.",
             "vanitylabelstep2calculateyourvanitywallet": "Βήμα 2 - Υπολογίστε το Vanity Πορτοφόλι σας.",
             "vanitylabelenteryourpart": "Εισάγετε το Προσωπικό Κλειδί που δημιουργήσατε στο Βήμα 1 κι αποθηκεύσατε:",
             "vanitylabelenteryourpoolpart": "Εισάγετε το Προσωπικό Κλειδί από το Vanity Pool:",
@@ -462,8 +462,8 @@ ninja.translator = {
             "detailkeyformats": "Key Formats: WIF, WIFC, HEX, B64, B6, MINI, BIP38",
             "detailview": "Προβολή λεπτομερειών",
             "detailprint": "Εκτύπωση",
-            "detaillabelnote1": "Το Litecoin Προσωπικό Κλειδί είναι ένας μοναδικός και μυστικός αριθμός που μόνο εσείς πρέπει να γνωρίζετε, ο οποίος μπορεί να κωδικοποιηθεί σε πολλές διαφορετικές μορφές. Εμφανίζουμε παρακάτω τη διεύθυνση Litecoin και το Δημόσιο Κλειδί, μαζί με το Προσωπικό Κλειδί, στις πιο δημοφιλείς μορφές  (WIF, HEX, B64, MINI).",
-            "detaillabelnote2": "Το Litecoin v0.6+ αποθηκεύει τα Προσωπικά Κλειδιά σε συμπιεσμένη μορφή. Το πρόγραμμα υποστηρίζει επίσης εισαγωγή κι εξαγωγή των Προσωπικών Κλειδιών με τις εντολές importprivkey/dumpprivkey. Η μορφή του εξαγόμενου Προσωπικού Κλειδιού προσδιορίζεται από το αν η διεύθυνση δημιουργήθηκε σε ένα παλιό ή νέο πορτοφόλι.",
+            "detaillabelnote1": "Το Ignition Coin Προσωπικό Κλειδί είναι ένας μοναδικός και μυστικός αριθμός που μόνο εσείς πρέπει να γνωρίζετε, ο οποίος μπορεί να κωδικοποιηθεί σε πολλές διαφορετικές μορφές. Εμφανίζουμε παρακάτω τη διεύθυνση Ignition Coin και το Δημόσιο Κλειδί, μαζί με το Προσωπικό Κλειδί, στις πιο δημοφιλείς μορφές  (WIF, HEX, B64, MINI).",
+            "detaillabelnote2": "Το Ignition Coin v0.6+ αποθηκεύει τα Προσωπικά Κλειδιά σε συμπιεσμένη μορφή. Το πρόγραμμα υποστηρίζει επίσης εισαγωγή κι εξαγωγή των Προσωπικών Κλειδιών με τις εντολές importprivkey/dumpprivkey. Η μορφή του εξαγόμενου Προσωπικού Κλειδιού προσδιορίζεται από το αν η διεύθυνση δημιουργήθηκε σε ένα παλιό ή νέο πορτοφόλι.",
             "detaillabelbitcoinaddress": "Διεύθυνση Litecoin:",
             "detaillabelbitcoinaddresscomp": "Συμπιεσμένη Διεύθυνση Litecoin:",
             "detaillabelpublickey": "Δημόσιο Κλειδί (130 χαρακτήρες [0-9A-F]):",
@@ -477,7 +477,7 @@ ninja.translator = {
             "detaillabelpassphrase": "BIP38 Κωδικός",
             "detaildecrypt": "Αποκωδικοποίηση BIP38",
             "detaillabelq1": "How do I make a wallet using dice? What is B6?", //TODO: please translate
-            "detaila1": "An important part of creating a Litecoin wallet is ensuring the random numbers used to create the wallet are truly random. Physical randomness is better than computer generated pseudo-randomness. The easiest way to generate physical randomness is with dice. To create a Litecoin private key you only need one six sided die which you roll 99 times. Stopping each time to record the value of the die. When recording the values follow these rules: 1=1, 2=2, 3=3, 4=4, 5=5, 6=0. By doing this you are recording the big random number, your private key, in B6 or base 6 format. You can then enter the 99 character base 6 private key into the text field above and click View Details. You will then see the Litecoin address associated with your private key. You should also make note of your private key in WIF format since it is more widely used." //TODO: please translate
+            "detaila1": "An important part of creating a Ignition Coin wallet is ensuring the random numbers used to create the wallet are truly random. Physical randomness is better than computer generated pseudo-randomness. The easiest way to generate physical randomness is with dice. To create a Ignition Coin private key you only need one six sided die which you roll 99 times. Stopping each time to record the value of the die. When recording the values follow these rules: 1=1, 2=2, 3=3, 4=4, 5=5, 6=0. By doing this you are recording the big random number, your private key, in B6 or base 6 format. You can then enter the 99 character base 6 private key into the text field above and click View Details. You will then see the Ignition Coin address associated with your private key. You should also make note of your private key in WIF format since it is more widely used." //TODO: please translate
         },
 
         "it": {
@@ -501,7 +501,7 @@ ninja.translator = {
             "vanityalertinvalidinputprivatekeysmatch": "Dati inseriti non validi. Entrambe le chiavi private combaciano. Devi inserire due chiavi differenti.",
 
             // header and menu html
-            "tagline": "Open Source JavaScript Client-Side Litecoin Wallet Generator",
+            "tagline": "Open Source JavaScript Client-Side Ignition Coin Wallet Generator",
             "generatelabelbitcoinaddress": "Generazione Indirizzo Litecoin...",
             "generatelabelmovemouse": "MUOVI il tuo mouse per contribuire alla generazione dei numeri casuali...",
             "generatelabelkeypress": "OR type some random characters into this textbox", //TODO: please translate
@@ -530,10 +530,10 @@ ninja.translator = {
             "singlelabelbitcoinaddress": "Indirizzo Litecoin:",
             "singlelabelprivatekey": "Chiave privata (Wallet Import Format):",
             "singletip1": "<b>Un portafogli Litecoin</b> è composto semplicemente da una coppia di valori: l'indirizzo e la sua chiave privata. Un portafogli è stato appena generato sul tuo browser e mostrato sopra.",
-            "singletip2": "<b>Per mettere in sicurezza questo portafogli</b> devi stampare o quantomeno salvare l'indirizzo Litecoin e la Chiave privata. È molto importante fare una copia di backup della chiave privata e conservarla in un posto sicuro. Questo sito non conosce la tua chiave privata. Se hai familiarità con PGP, puoi scaricare per intero questa pagina HTML e controllare la sua autentiticità. Puoi confrontare il codice SHA256 della pagina scaricata con il codice firmato dall'autore che trovi nella cronologia delle versioni (in fondo alla pagina). Se abbandoni/aggiorni la pagina web oppure premi il tasto Genera, un nuovo indirizzo sostituirà quello vecchio che non potrà più essere recuperato. La chiave privata dovrebbe essere tenuta segreta, chiunque conosca la chiave privata può avere accesso e spendere i tuoi Litecoin. Se stampi il tuo portafogli conservalo in una busta di plastica sigillata per tenerla al riparo dall'acqua. Tratta quanto stampato alla stregua di una banconota.",
-            "singletip3": "<b>Ricevi fondi</b> su questo portafogli mostrando l'indirizzo Litecoin per il versamento.",
+            "singletip2": "<b>Per mettere in sicurezza questo portafogli</b> devi stampare o quantomeno salvare l'indirizzo Ignition Coin e la Chiave privata. È molto importante fare una copia di backup della chiave privata e conservarla in un posto sicuro. Questo sito non conosce la tua chiave privata. Se hai familiarità con PGP, puoi scaricare per intero questa pagina HTML e controllare la sua autentiticità. Puoi confrontare il codice SHA256 della pagina scaricata con il codice firmato dall'autore che trovi nella cronologia delle versioni (in fondo alla pagina). Se abbandoni/aggiorni la pagina web oppure premi il tasto Genera, un nuovo indirizzo sostituirà quello vecchio che non potrà più essere recuperato. La chiave privata dovrebbe essere tenuta segreta, chiunque conosca la chiave privata può avere accesso e spendere i tuoi Litecoin. Se stampi il tuo portafogli conservalo in una busta di plastica sigillata per tenerla al riparo dall'acqua. Tratta quanto stampato alla stregua di una banconota.",
+            "singletip3": "<b>Ricevi fondi</b> su questo portafogli mostrando l'indirizzo Ignition Coin per il versamento.",
             "singletip4": "<b>Controlla il saldo</b> visitando block-explorer.com o explorer.litecoin.net cercando il tuo indirizzo Litecoin.",
-            "singletip5": "<b>Spendi i tuoi Litecoin</b> aprendo un account su block-explorer.com usando la chiave privata. Puoi anche spendere i tuoi Litecoin scaricando il popolare client p2p ed importando in esso il portafogli. Tieni presente che quando importi una chiave nel client p2p, nel momento in cui spendi le monete, la chiave viene raggruppata insieme alle altre presenti nel programma con i restanti Litecoin. Quando esegui una transazione gli spiccioli verranno invitati verso un altro indirizzo all'interno del tuo portafogli gestito dal client p2p. Quindi dovresti tenere un backup del portafogli contenuto nel client p2p e tenere questo in un posto sicuro fin tanto terrai dei Litecoin lì. Satoshi consiglia di non cancellare mai un portafogli. ",
+            "singletip5": "<b>Spendi i tuoi Litecoin</b> aprendo un account su block-explorer.com usando la chiave privata. Puoi anche spendere i tuoi Ignition Coin scaricando il popolare client p2p ed importando in esso il portafogli. Tieni presente che quando importi una chiave nel client p2p, nel momento in cui spendi le monete, la chiave viene raggruppata insieme alle altre presenti nel programma con i restanti Litecoin. Quando esegui una transazione gli spiccioli verranno invitati verso un altro indirizzo all'interno del tuo portafogli gestito dal client p2p. Quindi dovresti tenere un backup del portafogli contenuto nel client p2p e tenere questo in un posto sicuro fin tanto terrai dei Ignition Coin lì. Satoshi consiglia di non cancellare mai un portafogli. ",
             "singleshare": "SHARE", //TODO: please translate
             "singlesecret": "SECRET", //TODO: please translate
 
@@ -554,14 +554,14 @@ ninja.translator = {
             "bulkprint": "Stampa",
             "bulklabelcsv": "Valori Separati da virgola:",
             "bulklabelformat": "Indice,Indirizzo,Chiave Privata (WIF)",
-            "bulklabelq1": "Perché dovrei usare tanti portafogli per accettare Litecoin sul mio sito web?",
-            "bulka1": "Il tradizionale approcio per accettare i Litecoin è quello di installare il demone ufficiale Litecoin (\"bitcoind\"). Molti pacchetti di hosting web non supportano l'installazione di tale demone. Inoltre tenere in esecuzione il demone richiede che la chiave privata del portafogli sia custodita sul server, se questo viene violato tramite hacking puoi perdere tutti i Litecoin. Usando portafogli multipli puoi caricare sul server solo l'indirizzo per il versamento e non la chiave privata. Quindi non devi preoccuparti del tuo portafogli nel caso in cui il server venga violato con un attacco di hacking.",
-            "bulklabelq2": "Come utilizzo tutti questi portafogli per accettare Litecoin sul mio sito web?",
-            "bulklabela2li1": "Usa la funzione \"Portafogli multipli\" per generare una grande quantità di indirizzi Litecoin (10,000+). Copia e incolla la lista generata in formato CSV (campi separati da virgola) su un file, al sicuro nel tuo computer. Fai una copia di backup di questo file e mettilo un posto sicuro.",
-            "bulklabela2li2": "Importa gli indirizzi Litecoin in una tabella del database sul tuo web server. (Non importare i portafogli/chiavi private sul web server, altrimenti corri il rischio che rubino i tuoi Litecoin con l'hacking. Usa gli indirizzi Litecoin così come verranno mostrati ai tuoi clienti.)",
+            "bulklabelq1": "Perché dovrei usare tanti portafogli per accettare Ignition Coin sul mio sito web?",
+            "bulka1": "Il tradizionale approcio per accettare i Ignition Coin è quello di installare il demone ufficiale Ignition Coin (\"bitcoind\"). Molti pacchetti di hosting web non supportano l'installazione di tale demone. Inoltre tenere in esecuzione il demone richiede che la chiave privata del portafogli sia custodita sul server, se questo viene violato tramite hacking puoi perdere tutti i Litecoin. Usando portafogli multipli puoi caricare sul server solo l'indirizzo per il versamento e non la chiave privata. Quindi non devi preoccuparti del tuo portafogli nel caso in cui il server venga violato con un attacco di hacking.",
+            "bulklabelq2": "Come utilizzo tutti questi portafogli per accettare Ignition Coin sul mio sito web?",
+            "bulklabela2li1": "Usa la funzione \"Portafogli multipli\" per generare una grande quantità di indirizzi Ignition Coin (10,000+). Copia e incolla la lista generata in formato CSV (campi separati da virgola) su un file, al sicuro nel tuo computer. Fai una copia di backup di questo file e mettilo un posto sicuro.",
+            "bulklabela2li2": "Importa gli indirizzi Ignition Coin in una tabella del database sul tuo web server. (Non importare i portafogli/chiavi private sul web server, altrimenti corri il rischio che rubino i tuoi Ignition Coin con l'hacking. Usa gli indirizzi Ignition Coin così come verranno mostrati ai tuoi clienti.)",
             "bulklabela2li3": "Fornisci una opzione nel carrello del tuo sito web per pagare in Litecoin. Quando il cliente sceglie di pagare in Litecoin, gli mostrerai un indirizzo dal tuo database come \"indirizzo di pagamento\" e conserverai questo stesso indirizzo insieme ai dati dell'ordine.",
-            "bulklabela2li4": "Ora hai bisogno di notificare l'arrivo del pagamento. Cerca su Google \"notifiche pagamento Litecoin\" ed iscriviti ad almeno un servizio di notifica. Esistono diversi servizi che possono notificare in vari modi come Web Services, API, SMS, Email, etc. Una volta ricevuta la notifica, la quale può essere automatizzata con la programmazione, puoi processare l'ordine del cliente. Per verificare manualmente se l'ordine è davvero arrivato puoi usare un block explorer. Sostituisci INDIRIZZODACONTROLLARE con l'indirizzo Litecoin da controllare. Possono volerci dai 10 fino a 60 minuti per fare in modo che una transazione venga confermata.<br>http://www.explorer.litecoin.net/address/INDIRIZZODACONTROLLARE<br><br>Le transazioni non confermate possono essere visionate su: http://block-explorer.com/ <br>Dovresti vedere la transazione entro 30 secondi.",
-            "bulklabela2li5": "In questo modo i Litecoin transiteranno nella blockchain in tutta sicurezza. Usa il portafogli creato nel Passo 1 per spendere i Litecoin.",
+            "bulklabela2li4": "Ora hai bisogno di notificare l'arrivo del pagamento. Cerca su Google \"notifiche pagamento Litecoin\" ed iscriviti ad almeno un servizio di notifica. Esistono diversi servizi che possono notificare in vari modi come Web Services, API, SMS, Email, etc. Una volta ricevuta la notifica, la quale può essere automatizzata con la programmazione, puoi processare l'ordine del cliente. Per verificare manualmente se l'ordine è davvero arrivato puoi usare un block explorer. Sostituisci INDIRIZZODACONTROLLARE con l'indirizzo Ignition Coin da controllare. Possono volerci dai 10 fino a 60 minuti per fare in modo che una transazione venga confermata.<br>http://www.explorer.litecoin.net/address/INDIRIZZODACONTROLLARE<br><br>Le transazioni non confermate possono essere visionate su: http://block-explorer.com/ <br>Dovresti vedere la transazione entro 30 secondi.",
+            "bulklabela2li5": "In questo modo i Ignition Coin transiteranno nella blockchain in tutta sicurezza. Usa il portafogli creato nel Passo 1 per spendere i Litecoin.",
 
             // brain wallet html
             "brainlabelenterpassphrase": "Inserisci la Passphrase: ",
@@ -600,10 +600,10 @@ ninja.translator = {
             "detailkeyformats": "Key Formats: WIF, WIFC, HEX, B64, B6, MINI, BIP38",
             "detailview": "Mostra Dettagli",
             "detailprint": "Stampa",
-            "detaillabelnote1": "La tua Chiave privata Litecoin è rappresentata da un numero segreto, unico al mondo, che dovresti conoscere soltanto tu. Può essere codificato in molti formati differenti. Di seguito verrà mostrato l'indirizzo Litecoin e la chiave pubblica, con la corrispondente chiave privata, nei più diffusi formati di codifica (WIF, WIFC, HEX, B64).",
+            "detaillabelnote1": "La tua Chiave privata Ignition Coin è rappresentata da un numero segreto, unico al mondo, che dovresti conoscere soltanto tu. Può essere codificato in molti formati differenti. Di seguito verrà mostrato l'indirizzo Ignition Coin e la chiave pubblica, con la corrispondente chiave privata, nei più diffusi formati di codifica (WIF, WIFC, HEX, B64).",
             "detaillabelnote2": "Il client Litecoin, dalla versione v0.6, memorizza le chiavi pubbliche in formato compresso. Il programma ora supporta l'importazione e l'esportazione delle chiavi private attraverso importprivkey/dumpprivkey. Il formato con cui viene esportata la chiave privata dipende se l'indirizzo generato è stato creato con il nuovo o vecchio portafogli.",
             "detaillabelbitcoinaddress": "Indirizzo Litecoin",
-            "detaillabelbitcoinaddresscomp": "Indirizzo Litecoin compresso",
+            "detaillabelbitcoinaddresscomp": "Indirizzo Ignition Coin compresso",
             "detaillabelpublickey": "Chiave pubblica (130 caratteri [0-9A-F]):",
             "detaillabelpublickeycomp": "Chiave pubblica (compressa, 66 caratteri [0-9A-F]):",
             "detaillabelprivwif": "Chiave privata WIF<br>51 caratteri base58, inizia per a",
@@ -615,7 +615,7 @@ ninja.translator = {
             "detaillabelpassphrase": "Inserisci passphrase BIP38",
             "detaildecrypt": "Decripta BIP38",
             "detaillabelq1": "How do I make a wallet using dice? What is B6?", //TODO: please translate
-            "detaila1": "An important part of creating a Litecoin wallet is ensuring the random numbers used to create the wallet are truly random. Physical randomness is better than computer generated pseudo-randomness. The easiest way to generate physical randomness is with dice. To create a Litecoin private key you only need one six sided die which you roll 99 times. Stopping each time to record the value of the die. When recording the values follow these rules: 1=1, 2=2, 3=3, 4=4, 5=5, 6=0. By doing this you are recording the big random number, your private key, in B6 or base 6 format. You can then enter the 99 character base 6 private key into the text field above and click View Details. You will then see the Litecoin address associated with your private key. You should also make note of your private key in WIF format since it is more widely used." //TODO: please translate
+            "detaila1": "An important part of creating a Ignition Coin wallet is ensuring the random numbers used to create the wallet are truly random. Physical randomness is better than computer generated pseudo-randomness. The easiest way to generate physical randomness is with dice. To create a Ignition Coin private key you only need one six sided die which you roll 99 times. Stopping each time to record the value of the die. When recording the values follow these rules: 1=1, 2=2, 3=3, 4=4, 5=5, 6=0. By doing this you are recording the big random number, your private key, in B6 or base 6 format. You can then enter the 99 character base 6 private key into the text field above and click View Details. You will then see the Ignition Coin address associated with your private key. You should also make note of your private key in WIF format since it is more widely used." //TODO: please translate
         },
 
         "de": {
@@ -668,7 +668,7 @@ ninja.translator = {
             "singlelabelbitcoinaddress": "Litecoin-Adresse",
             "singlelabelprivatekey": "Privater Schl&uuml;ssel (WIF &ndash; zum Importieren geeignet):",
             "singletip1": "<b>Ein Litecoin-Wallet </b>(Geldb&ouml;rse) ist nichts anderes als eine Litecoin-Adresse (&ouml;ffentlicher Schl&uuml;ssel) und der zu ihr geh&ouml;rende private Schl&uuml;ssel. Oben findest du ein solches, gerade f&uuml;r dich erstelltes Wallet, bestehend aus den beiden Zeichenketten. Die QR-Codes dienen lediglich der Vereinfachung und enthalten kodiert die Adresse bzw. den privaten Schl&uuml;ssel.",
-            "singletip2": "<b>Um dieses Wallet zu sch&uuml;tzen,</b> musst du es entweder ausdrucken oder anderweitig die Litecoin-Adresse und den privaten Schl&uuml;ssel sichern. Fertige auf jeden Fall eine Kopie des privaten Schl&uuml;ssels an und bewahre sie an einem sicheren Ort auf. Der private Schl&uuml;ssel liegt nur lokal auf deinem Rechner vor und wurde nicht ins Internet &uuml;bertragen. Falls du dich mit PGP auskennst, kannst du dir diese all-in-one HTML-Seite herunterladen. Um zu &uuml;berpr&uuml;fen, ob die heruntergeladene Version authentisch ist, kannst du den SHA256-Hash dieser Seite mit dem SHA256-Hash in der signierten Versionsgeschichte am unteren Ende dieser Seite abgleichen. Wenn du diese Seite verl&auml;sst, sie neul&auml;dst bzw. den \"Neues Wallet erstellen\"-Button dr&uuml;ckst, wird ein neues Wallet erstellt und das vorherige wird nicht mehr abrufbar sein. Du solltest deinen privaten Schl&uuml;ssel geheim halten. Wer den privaten Schl&uuml;ssel hat, kann damit auf alle im Wallet befindlichen Litecoin zugreifen und sie nach Belieben ausgeben. Behandle dein gedrucktes Wallet wie echtes Geld!",
+            "singletip2": "<b>Um dieses Wallet zu sch&uuml;tzen,</b> musst du es entweder ausdrucken oder anderweitig die Litecoin-Adresse und den privaten Schl&uuml;ssel sichern. Fertige auf jeden Fall eine Kopie des privaten Schl&uuml;ssels an und bewahre sie an einem sicheren Ort auf. Der private Schl&uuml;ssel liegt nur lokal auf deinem Rechner vor und wurde nicht ins Internet &uuml;bertragen. Falls du dich mit PGP auskennst, kannst du dir diese all-in-one HTML-Seite herunterladen. Um zu &uuml;berpr&uuml;fen, ob die heruntergeladene Version authentisch ist, kannst du den SHA256-Hash dieser Seite mit dem SHA256-Hash in der signierten Versionsgeschichte am unteren Ende dieser Seite abgleichen. Wenn du diese Seite verl&auml;sst, sie neul&auml;dst bzw. den \"Neues Wallet erstellen\"-Button dr&uuml;ckst, wird ein neues Wallet erstellt und das vorherige wird nicht mehr abrufbar sein. Du solltest deinen privaten Schl&uuml;ssel geheim halten. Wer den privaten Schl&uuml;ssel hat, kann damit auf alle im Wallet befindlichen Ignition Coin zugreifen und sie nach Belieben ausgeben. Behandle dein gedrucktes Wallet wie echtes Geld!",
             "singletip3": "Du kannst <b>Guthaben</b> zu deinem Wallet <b>hinzuf&uuml;gen</b>, indem du genau wie bei anderen &Uuml;berweisungen Bitcoins an die Litecoin-Adresse deines Wallets schickst.",
             "singletip4": "<b>&Uuml;berpr&uuml;fe dein Guthaben,</b> indem du deine Litecoin-Adresse auf block-explorer.com bzw. explorer.litecoin.net eingibst.",
             "singletip5": "Du kannst deine <b>Bitcoins ausgeben</b>, indem du das gesamte mit deinem privaten Schl&uuml;ssel verbundene Guthaben auf deinen Account bei block-explorer.com &uuml;bertr&auml;gst. Alternativ kannst du dir ein Bitcoinprogramm herunterladen und deinen privaten Schl&uuml;ssel in dieses importieren. Beachte dabei aber, dass, sobald du Bitcoins mit dem Programm sendest, dein privater Schl&uuml;ssel mit den anderen privaten Schl&uuml;sseln, die vom Programm bereitgestellt werden, verbunden wird. Bei einer &Uuml;berweisung wird etwas R&uuml;ckgeld an eine der Litecoin-Adressen des Programms geschickt. Deswegen musst du, um tats&auml;chlich dein gesamtes Guthaben zu sichern, ein Backup vom gesamten Wallet des Programms, das nun auch deinen importierten privaten Schl&uuml;ssel enth&auml;lt, anfertigen. Satoshi r&auml;t, dass man unter keinen Umst&auml;nden ein Wallet l&ouml;schen sollte.",
@@ -697,8 +697,8 @@ ninja.translator = {
             "bulklabelq2": "Wie kann ich ein Massen-Wallet in meine Webseite integrieren?",
             "bulklabela2li1": "Erstelle mithilfe dieser Seite ganz viele Litecoin-Adressen (10.000+). Kopiere die CSV-Liste in eine sichere Textdatei auf deinem Computer. Fertige ein Backup dieser Datei an und speichere sie an einem sicheren Ort.",
             "bulklabela2li2": "Importiere die Litecoin-Adressen in eine Datenbank auf deinem Server. (Lege nur die Litecoin-Adressen, nicht aber die privaten Schl&uuml;ssel auf deinem Server ab!)",
-            "bulklabela2li3": "Biete deinen Kunden auf deiner Webseite Litecoin als Zahlungsm&ouml;glichkeit an. Wenn ein Kunde mit Litecoin zahlen m&ouml;chte, zeige ihm eine der Adressen aus deiner Datenbank als Zahlungsadresse an und speichere sie mit seiner Bestellung.",
-            "bulklabela2li4": "Jetzt musst du dir den Zahlungseingang best&auml;tigen lassen. Google \"Litecoin payment notification\" und melde dich bei mindestens einem solchen Anbieter an. Es gibt verschiedene Anbieter, die dich via Web, API, SMS, E-Mail etc. &uuml;ber erfolgte Transaktionen informieren k&ouml;nnen. Sobald du die Eingangsbest&auml;tigung erh&auml;lst, kannst du automatisch die Bestellung abwickeln lassen. Um selber zu schauen, ob eine Zahlung erfolgt ist, kannst du Block Explorer nutzen. Ersetze BITCOINADRESSE durch die Litecoin-Adresse, die du pr&uuml;fen m&ouml;chtest. Es dauert von zehn Minuten bis zu einer Stunde, um Transaktionen zu best&auml;tigen. <br />http://www.explorer.litecoin.net/address/BITCOINADRESSE<br /> <br />Unbest&auml;tigte Transaktionen findest du hier: http://block-explorer.com/ <br /> S&auml;mtliche Transaktionen sollten dort innerhalb von 30 Sekunden auftauchen.",
+            "bulklabela2li3": "Biete deinen Kunden auf deiner Webseite Ignition Coin als Zahlungsm&ouml;glichkeit an. Wenn ein Kunde mit Ignition Coin zahlen m&ouml;chte, zeige ihm eine der Adressen aus deiner Datenbank als Zahlungsadresse an und speichere sie mit seiner Bestellung.",
+            "bulklabela2li4": "Jetzt musst du dir den Zahlungseingang best&auml;tigen lassen. Google \"Ignition Coin payment notification\" und melde dich bei mindestens einem solchen Anbieter an. Es gibt verschiedene Anbieter, die dich via Web, API, SMS, E-Mail etc. &uuml;ber erfolgte Transaktionen informieren k&ouml;nnen. Sobald du die Eingangsbest&auml;tigung erh&auml;lst, kannst du automatisch die Bestellung abwickeln lassen. Um selber zu schauen, ob eine Zahlung erfolgt ist, kannst du Block Explorer nutzen. Ersetze BITCOINADRESSE durch die Litecoin-Adresse, die du pr&uuml;fen m&ouml;chtest. Es dauert von zehn Minuten bis zu einer Stunde, um Transaktionen zu best&auml;tigen. <br />http://www.explorer.litecoin.net/address/BITCOINADRESSE<br /> <br />Unbest&auml;tigte Transaktionen findest du hier: http://block-explorer.com/ <br /> S&auml;mtliche Transaktionen sollten dort innerhalb von 30 Sekunden auftauchen.",
             "bulklabela2li5": "Deine Bitcoins werden sicher in die Block-Chain aufgenommen. Mithilfe des urspr&uuml;nglichen Wallets vom ersten Schritt kannst du sie ausgeben.",
 
             // brain wallet html
@@ -759,7 +759,7 @@ ninja.translator = {
         "cs": {
             // javascript alerts or messages
             "testneteditionactivated": "TESTNET aktivován",
-            "paperlabelbitcoinaddress": "Litecoin adresa:",
+            "paperlabelbitcoinaddress": "Ignition Coin adresa:",
             "paperlabelprivatekey": "Soukromý klíč (WIF &ndash; Formát pro import do peněženky):",
             "paperlabelencryptedkey": "Šifrovaný soukromý klíč (Vyžadováno heslo)",
             "bulkgeneratingaddresses": "Generuji adresy... ",
@@ -772,13 +772,13 @@ ninja.translator = {
             "bip38alertpassphraserequired": "Vyžadováno heslo pro BIP38 klíč",
             "vanityinvalidinputcouldnotcombinekeys": "Špatný vstup. Kombinovat klíče není možné.",
             "vanityalertinvalidinputpublickeysmatch": "Špatný vstup. Veřejný klíč obou položek je shodný. Musíte zadat dva různé klíče.",
-            "vanityalertinvalidinputcannotmultiple": "Špatný vstup. Dva veřejné klíče není možné násobit. Zvolte 'Přidat' pro přidání dvou veřejných klíčů a získání Litecoin adresy.",
+            "vanityalertinvalidinputcannotmultiple": "Špatný vstup. Dva veřejné klíče není možné násobit. Zvolte 'Přidat' pro přidání dvou veřejných klíčů a získání Ignition Coin adresy.",
             "vanityprivatekeyonlyavailable": "Dostupné pouze při kombinaci dvou soukromých klíčů",
             "vanityalertinvalidinputprivatekeysmatch": "Špatný vstup. Soukromý klíč obou položek je shodný. Musíte zadat dva různé klíče.",
 
             // header and menu html
-            "tagline": "Open Source generátor Litecoin peněženky napsaný v JavaScript",
-            "generatelabelbitcoinaddress": "Generuji Litecoin adresu",
+            "tagline": "Open Source generátor Ignition Coin peněženky napsaný v JavaScript",
+            "generatelabelbitcoinaddress": "Generuji Ignition Coin adresu",
             "generatelabelmovemouse": "POHYBUJTE myší pro získání dostatku náhody...",
             "generatelabelkeypress": "NEBO napište několik náhodných znaků do tohoto pole",
             "singlewallet": "Jedna peněženka",
@@ -803,13 +803,13 @@ ninja.translator = {
             // single wallet html
             "newaddress": "Vytvořit novou adresu",
             "singleprint": "Tisk",
-            "singlelabelbitcoinaddress": "Litecoin adresa",
+            "singlelabelbitcoinaddress": "Ignition Coin adresa",
             "singlelabelprivatekey": "Soukromý klíč (WIF &ndash; Formát pro import do peněženky):",
-            "singletip1": "<b>Litecoin peněženka</b> je jednoduchý pár Litecoin adresy s přidruženým soukromým klíčem. Taková peněženka byla právě vytvořena ve vašem prohlížeči a zobrazena výše.",
-            "singletip2": "<b>Pro zabezpečení této peněženky</b> musíte tuto Litecoin adresu a soukromý klíč vytisknout a nebo jinak poznamenat. Je důležité provést zálohu soukromého klíče a jeho uschování na bezpečném místě. Tato webová stránka nemá žádné informace o vašem soukromém klíči. Pokud ovládáte PGP, můžete celou tuto stránku stáhnout v jednom HTML souboru a ověřit její pravost srovnáním SHA256 hashe s podepsaným dokumentem historie verzí. Odkaz naleznete v patičce této stránky. Pokud opustíte či obnovíte tuto stránku nebo kliknete na 'Vytvořit novou adresu' dojde k vygenerování nového soukromého klíče a předtím zobrazený klíč bude ztracen. Váš soukromý klíč musíte uchovat v tajnosti. Každý kdo má tento klíč k dispozici může utratit všechny peníze v této peněžence. Pokud budete peněženku tisknout, uzavřete ji do nepropustného obalu nebo ji zalaminujte. Tím zabráníte jejímu poškození vodou. Chovejte se k této peněžence jako k normálním bankovkám.",
-            "singletip3": "<b>Pro vložení</b> peněz do této peněženky stačí zaslat peníze na Litecoin adresu.",
-            "singletip4": "<b>Zkontrolovat zůstatek</b> můžete na webové stránce block-explorer.com nebo explorer.litecoin.net po zadání Litecoin adresy.",
-            "singletip5": "<b>Utratit Bitcoiny</b> můžete pomocí block-explorer.com načtením celého zůstatku pomocí soukromého klíče do vašeho účtu. Utratit zůstatek můžete také pomocí jednoho z P2P Litecoin klientů naimportováním soukromého klíče. Myslete na to, že importem klíče do klienta se stane součástí jeho peněženky. Pokud převedete někomu peníze, nespotřebovaný zůstatek se zašle na jinou Litecoin adresu uvedenou v P2P klienta. Tuto novou adresu musíte vyzálohovat a udržovat v bezpečí. Satoshi doporučuje, že by nikdo nikdy neměl mazat peněženku.",
+            "singletip1": "<b>Ignition Coin peněženka</b> je jednoduchý pár Ignition Coin adresy s přidruženým soukromým klíčem. Taková peněženka byla právě vytvořena ve vašem prohlížeči a zobrazena výše.",
+            "singletip2": "<b>Pro zabezpečení této peněženky</b> musíte tuto Ignition Coin adresu a soukromý klíč vytisknout a nebo jinak poznamenat. Je důležité provést zálohu soukromého klíče a jeho uschování na bezpečném místě. Tato webová stránka nemá žádné informace o vašem soukromém klíči. Pokud ovládáte PGP, můžete celou tuto stránku stáhnout v jednom HTML souboru a ověřit její pravost srovnáním SHA256 hashe s podepsaným dokumentem historie verzí. Odkaz naleznete v patičce této stránky. Pokud opustíte či obnovíte tuto stránku nebo kliknete na 'Vytvořit novou adresu' dojde k vygenerování nového soukromého klíče a předtím zobrazený klíč bude ztracen. Váš soukromý klíč musíte uchovat v tajnosti. Každý kdo má tento klíč k dispozici může utratit všechny peníze v této peněžence. Pokud budete peněženku tisknout, uzavřete ji do nepropustného obalu nebo ji zalaminujte. Tím zabráníte jejímu poškození vodou. Chovejte se k této peněžence jako k normálním bankovkám.",
+            "singletip3": "<b>Pro vložení</b> peněz do této peněženky stačí zaslat peníze na Ignition Coin adresu.",
+            "singletip4": "<b>Zkontrolovat zůstatek</b> můžete na webové stránce block-explorer.com nebo explorer.litecoin.net po zadání Ignition Coin adresy.",
+            "singletip5": "<b>Utratit Bitcoiny</b> můžete pomocí block-explorer.com načtením celého zůstatku pomocí soukromého klíče do vašeho účtu. Utratit zůstatek můžete také pomocí jednoho z P2P Ignition Coin klientů naimportováním soukromého klíče. Myslete na to, že importem klíče do klienta se stane součástí jeho peněženky. Pokud převedete někomu peníze, nespotřebovaný zůstatek se zašle na jinou Ignition Coin adresu uvedenou v P2P klienta. Tuto novou adresu musíte vyzálohovat a udržovat v bezpečí. Satoshi doporučuje, že by nikdo nikdy neměl mazat peněženku.",
             "singleshare": "SDÍLEJTE",
             "singlesecret": "SOUKROMÉ",
 
@@ -831,12 +831,12 @@ ninja.translator = {
             "bulklabelcsv": "Čárkou oddělené hodnoty (CSV):",
             "bulklabelformat": "Index, Adresa, Soukromý klíč (WIF &ndash; Formát pro import do peněženky)",
             "bulklabelq1": "Proč bych měl používat Hromadnou peněženku pro příjem Bitcoinů na mé stránce?",
-            "bulka1": "Tradiční způsob jak přijímat Bitcoiny na vaší webové stránce vyžaduje instalaci oficiálního Litecoin klienta (\"bitcoind\"). Mnoho webhostingových společností neumožňuje tuto instalaci provést. Také běh Litecoin démona na webovém serveru znamená, že soukromé klíče jsou uloženy na serveru a mohou být ukradeny. Pokud použijete Hromadnou peněženku, tak stačí na server nahrát pouze veřejnou Litecoin adresu a ne soukromé klíče. Poté se nemusíte bát, že vaše Bitcoiny budou ukradeny v případě napadení serveru.",
+            "bulka1": "Tradiční způsob jak přijímat Bitcoiny na vaší webové stránce vyžaduje instalaci oficiálního Ignition Coin klienta (\"bitcoind\"). Mnoho webhostingových společností neumožňuje tuto instalaci provést. Také běh Ignition Coin démona na webovém serveru znamená, že soukromé klíče jsou uloženy na serveru a mohou být ukradeny. Pokud použijete Hromadnou peněženku, tak stačí na server nahrát pouze veřejnou Ignition Coin adresu a ne soukromé klíče. Poté se nemusíte bát, že vaše Bitcoiny budou ukradeny v případě napadení serveru.",
             "bulklabelq2": "Jakým způsobem mohou přijímat Bitcoiny na mé stránce pomocí Hromadné peněženky?",
-            "bulklabela2li1": "Předgenerujte si velké množství Litecoin adres (10 000+). Okopírujte si CSV seznam do souboru na bezpečné místo ve vašem počítači. Poté jej vyzálohujte na bezpečné místo.",
-            "bulklabela2li2": "Naimportujte Litecoin adresy do databáze na vašem webovém serveru. Neimportujte soukromé klíče, abyste zabránili krádeži vašich peněz.",
+            "bulklabela2li1": "Předgenerujte si velké množství Ignition Coin adres (10 000+). Okopírujte si CSV seznam do souboru na bezpečné místo ve vašem počítači. Poté jej vyzálohujte na bezpečné místo.",
+            "bulklabela2li2": "Naimportujte Ignition Coin adresy do databáze na vašem webovém serveru. Neimportujte soukromé klíče, abyste zabránili krádeži vašich peněz.",
             "bulklabela2li3": "Umožněte na vaší stránce platbu pomocí Bitcoinu. Stačí vždy zobrazit jednu z vygenerovaných adres a uložit si ji u objednávky.",
-            "bulklabela2li4": "Nyní je již pouze potřeba zařídit notifikace o příchozí transakci. Zadejte do Google \"Litecoin payment notification\" a využijte jednu z existujících služeb. Existuje jich několik a podporují např. Web Services, API, SMS, Email, apod. Notifikaci můžete zpracovat automaticky. Pro ruční kontrolu, zda peníze přišly, stačí použít Block Explorer. Nahraďte SEMPATŘÍADRESA Litecoin adresou, kterou chcete zkontrolovat. Potvrzení transkace může trvat od 10 minut do jedné hodiny.<br />http://www.explorer.litecoin.net/address/SEMPATŘÍADRESA<br /><br />Nepotvrzené tansakce je možné zkontrolovat na: http://block-explorer.com/ <br />Většinou se zde zobrazí do 30 sekund.",
+            "bulklabela2li4": "Nyní je již pouze potřeba zařídit notifikace o příchozí transakci. Zadejte do Google \"Ignition Coin payment notification\" a využijte jednu z existujících služeb. Existuje jich několik a podporují např. Web Services, API, SMS, Email, apod. Notifikaci můžete zpracovat automaticky. Pro ruční kontrolu, zda peníze přišly, stačí použít Block Explorer. Nahraďte SEMPATŘÍADRESA Ignition Coin adresou, kterou chcete zkontrolovat. Potvrzení transkace může trvat od 10 minut do jedné hodiny.<br />http://www.explorer.litecoin.net/address/SEMPATŘÍADRESA<br /><br />Nepotvrzené tansakce je možné zkontrolovat na: http://block-explorer.com/ <br />Většinou se zde zobrazí do 30 sekund.",
             "bulklabela2li5": "Bitcoiny budou bezpečně převedeny v řetězci bloků. Pro spotřebování stačí kdykoliv naimportovat soubor vygenerovaný v prvním kroku.",
 
             // brain wallet html
@@ -846,7 +846,7 @@ ninja.translator = {
             "brainlabelconfirm": "Heslo znovu:",
             "brainview": "Zobrazit",
             "brainalgorithm": "Algoritmus: SHA256 (Heslo)",
-            "brainlabelbitcoinaddress": "Litecoin adresa:",
+            "brainlabelbitcoinaddress": "Ignition Coin adresa:",
             "brainlabelprivatekey": "Soukromý klíč (WIF &ndash; Formát pro import do peněženky):",
 
             // vanity wallet html
@@ -855,7 +855,7 @@ ninja.translator = {
             "vanitylabelstep1publickey": "Veřejný klíč 1. kroku",
             "vanitylabelstep1pubnotes": "Zkopírujte a vložte výše uvedený klíč do pole Your-Part-Public-Key na Vanity Pool stránce.",
             "vanitylabelstep1privatekey": "Soukromý klíč 1. kroku",
-            "vanitylabelstep1privnotes": "Zkopírujte a uschovejte uvedený soukromý klíč. Ideálně na šifrovaný disk. Budete ho potřebovat pro získání vašeho Litecoin soukromého klíče poté, co pool nalezne začátek.",
+            "vanitylabelstep1privnotes": "Zkopírujte a uschovejte uvedený soukromý klíč. Ideálně na šifrovaný disk. Budete ho potřebovat pro získání vašeho Ignition Coin soukromého klíče poté, co pool nalezne začátek.",
             "vanitylabelstep2calculateyourvanitywallet": "Krok 2 &ndash; Výpočet peněženky Vanity",
             "vanitylabelenteryourpart": "Zadejte vaši část soukromého klíče (vygenerovaný a uložený v prvním kroku výše):",
             "vanitylabelenteryourpoolpart": "Zadejte pool část soukromého klíče (z Vanity Poolu):",
@@ -864,7 +864,7 @@ ninja.translator = {
             "vanitylabelradioadd": "Sečíst",
             "vanitylabelradiomultiply": "Násobit",
             "vanitycalc": "Spočítát peněženku Vanity",
-            "vanitylabelbitcoinaddress": "Litecoin adresa Vanity:",
+            "vanitylabelbitcoinaddress": "Ignition Coin adresa Vanity:",
             "vanitylabelnotesbitcoinaddress": "Výše je vaše nová adresa, která by měla obsahovat požadovaný začátek.",
             "vanitylabelpublickeyhex": "Veřejný klíč Vanity (HEX):",
             "vanitylabelnotespublickeyhex": "Výše je veřejný klíč v hexadecimálním formátu.",
@@ -878,8 +878,8 @@ ninja.translator = {
             "detailprint": "Tisk",
             "detaillabelnote1": "",
             "detaillabelnote2": "",
-            "detaillabelbitcoinaddress": "Litecoin adresa:",
-            "detaillabelbitcoinaddresscomp": "Komprimovaná Litecoin adresa:",
+            "detaillabelbitcoinaddress": "Ignition Coin adresa:",
+            "detaillabelbitcoinaddresscomp": "Komprimovaná Ignition Coin adresa:",
             "detaillabelpublickey": "Veřejný klíč (130 znaků [0-9A-F]):",
             "detaillabelpublickeycomp": "Komprimovaný veřejný klíč (66 znaků [0-9A-F]):",
             "detaillabelprivwif": "Soukromý klíč WIF  <br />51 znaků v base58, začíná",
@@ -891,13 +891,13 @@ ninja.translator = {
             "detaillabelpassphrase": "Zadejte BIP38 heslo:",
             "detaildecrypt": "Dešifrovat",
             "detaillabelq1": "Jak si mohu vytvořit peněženku pomocí hrací kostky? Co je to B6?",
-            "detaila1": "Důležitá součást vytváření Litecoin peněženky je jistota, že náhodná čísla použitá pro její tvorbu jsou opravdu náhodná. Fyzická náhoda je lepší než počítačem generovaná pseudonáhoda. Pomocí hrací kostky je možné jednoduše získat fyzicky náhodná čísla. Pro vytvoření soukromého klíče potřebujete pouze šestihrannou kostku, kterou 99x hodíte. Každý tento hod zaznamenejte. Při zapisování převeďte čísla takto: 1=1, 2=2, 3=3, 4=4, 5=5, 6=0. Pomocí této techniky zapisujete velké, opravdu náhodné číslo, svůj soukromý klíč v B6 nebo také base 6 formátu. Těchto 99 čísel napište do pole výše a klikněte na Zobrazit detail. Poté se vám zobrazí Litecoin adresa přidružená k tomuto soukromému klíči. Soukromý klíč byste si měli zaznamenat také ve WIF formátu, který je široce používán."
+            "detaila1": "Důležitá součást vytváření Ignition Coin peněženky je jistota, že náhodná čísla použitá pro její tvorbu jsou opravdu náhodná. Fyzická náhoda je lepší než počítačem generovaná pseudonáhoda. Pomocí hrací kostky je možné jednoduše získat fyzicky náhodná čísla. Pro vytvoření soukromého klíče potřebujete pouze šestihrannou kostku, kterou 99x hodíte. Každý tento hod zaznamenejte. Při zapisování převeďte čísla takto: 1=1, 2=2, 3=3, 4=4, 5=5, 6=0. Pomocí této techniky zapisujete velké, opravdu náhodné číslo, svůj soukromý klíč v B6 nebo také base 6 formátu. Těchto 99 čísel napište do pole výše a klikněte na Zobrazit detail. Poté se vám zobrazí Ignition Coin adresa přidružená k tomuto soukromému klíči. Soukromý klíč byste si měli zaznamenat také ve WIF formátu, který je široce používán."
         },
 
         "hu": {  // 02-MAR-2014 16:57
             // javascript alerts or messages
             "testneteditionactivated": "TESTNET KIADÁS AKTIVÁLVA",
-            "paperlabelbitcoinaddress": "Litecoin cím:",
+            "paperlabelbitcoinaddress": "Ignition Coin cím:",
             "paperlabelprivatekey": "Privát kulcs (WIF, tárca import formátumban):",
             "paperlabelencryptedkey": "Titkosított privát kulcs (Jelszó szükséges)",
             "bulkgeneratingaddresses": "Cím generálás... ",
@@ -910,13 +910,13 @@ ninja.translator = {
             "bip38alertpassphraserequired": "A BIP38 kulcshoz jelmondat szükséges",
             "vanityinvalidinputcouldnotcombinekeys": "Érvénytelen bemenet. A kulcsok nem tartoznak össsze.",
             "vanityalertinvalidinputpublickeysmatch": "Érvénytelen bemenet. A két megadott nyilvános kulcs azonos. Két különböző kulcs bevitelére van szükség.",
-            "vanityalertinvalidinputcannotmultiple": "Érvénytelen bemenet. Két nyilvános kulcs összeszorzása nem lehetséges. Válassza az 'Összeadás'-t, ha két nyilvános kulcsból szeretne egy Litecoin címet kapni.",
+            "vanityalertinvalidinputcannotmultiple": "Érvénytelen bemenet. Két nyilvános kulcs összeszorzása nem lehetséges. Válassza az 'Összeadás'-t, ha két nyilvános kulcsból szeretne egy Ignition Coin címet kapni.",
             "vanityprivatekeyonlyavailable": "Csak két privát kulcs kombinálásakor lehetséges",
             "vanityalertinvalidinputprivatekeysmatch": "Érvénytelen bemenet. A két megadott privát kulcs azonos. Két különböző kulcs bevitelére van szükség.",
 
             // header and menu html
-            "tagline": "Nyílt forráskódú, kliens oldali JavaScript, Litecoin pénztárca előállítására",
-            "generatelabelbitcoinaddress": "A Litecoin cím előállítása...",
+            "tagline": "Nyílt forráskódú, kliens oldali JavaScript, Ignition Coin pénztárca előállítására",
+            "generatelabelbitcoinaddress": "A Ignition Coin cím előállítása...",
             "generatelabelmovemouse": "MOZGASSA az egeret, ha fokozni szeretné a véletlenszerűséget...",
             "generatelabelkeypress": "VAGY gépeljen be néhány véletlenszerű karaktert ebbe a szövegdobozba",
             "singlewallet": "Egyszerű pénztárca",
@@ -942,13 +942,13 @@ ninja.translator = {
             // single wallet html
             "newaddress": "Új cím előállítása",
             "singleprint": "Nyomtatás",
-            "singlelabelbitcoinaddress": "Litecoin cím:",
+            "singlelabelbitcoinaddress": "Ignition Coin cím:",
             "singlelabelprivatekey": "Privát kulcs (WIF, tárca import formátumban):",
-            "singletip1": "<b>Egy Litecoin pénztárca</b> nem más, mint egy Litecoin címből és a hozzá tartozó privát kulcsból álló számpár. Egy ilyen pénztárcát állítottunk elő és jelenítettünk meg fent az Ön számára a Web böngészőben.",
-            "singletip2": "<b>A pénztárca biztonságos megőrzése</b> érdekében nyomtassa ki vagy más módon rögzítse a Litecoin címet és privát kulcsot. Fontos, hogy a privát kulcsból készítsen másolatot, és tárolja biztonságos helyen. Ez a webhely nem tud az ön privát kulcsairól. Ha ismeri a PGP-t, akkor egyben letöltheti az egész web lapot, és ellenőrizheti, hogy a webhely szerzője álatal írt valódi változatot töltötte-e le. Ehhez össze kell hasonlítania a HTML-ből képzett SHA256 zanzát a webhely láblécében hivatkozott, aláírt verzió történetben lévő SHA256 zanzával. Ha elhagyja/megfrissíti a webhelyet vagy megnyomja az 'Új cím előállítása' gombot, akkor egy új privát kulcs áll elő, és az előzőleg megjelenített privát kulcs elvész. A Litecoin címhez tartozó privát kulcsot titokban kell tartani. Bárki, aki megszerzi ezt a kulcsot, el tudja költeni az ehhez a címhez tartozó összes bitcoint. Ha kinyomtatja a pénztárcát, akkor tárolja egy villámzáras vízhatlan nylon-zacskóban. A papír pénztárcát tekintse úgy, mintha pénz lenne.",
-            "singletip3": "<b>Pénzt úgy tehet</b> a pénztárcájába, hogy másokkal bitcoinokat küldet erre a Litecoin címre.",
-            "singletip4": "<b>A pénztárca egyenlegét</b> úgy kérdezheti le, hogy elmegy a block-explorer.com vagy a explorer.litecoin.net weblapokra, és ott beadja ezt a Litecoin címet.",
-            "singletip5": "<b>Ha el akarja költeni a bitcoinjait,</b> akkor menjen a block-explorer.com weblapra, és a privát kulcson lévő teljes egyenleget töltse át (sweep) a weblapon lévő számlájára. A pénzt úgy is elköltheti, hogy letölti valamelyik népszerű p2p Litecoin klienst, és beimportálja a privát kulcsot a p2p kliens pénztárcájába. Ne feledje, hogy miután beimportálta a kulcsot a p2p Litecoin kliensbe, a kulcsot a p2p kliens a pénztárcában lévő többi kulccsal együtt tárolja. Pénz küldésekor a visszajáró pénzt a p2p kliens pénztárcájában lévő másik Litecoin címre fogják küldeni. Ekkor biztonsági másolatot kell készítenie a p2p kliens pénztárcáról, és a másolatot biztos helyen kell őriznie, mivel a maradék bitcoinjait a pénztárca kulcsai tárolják. Satoshi tanácsa, hogy pénztárcát soha ne töröljünk.",
+            "singletip1": "<b>Egy Ignition Coin pénztárca</b> nem más, mint egy Ignition Coin címből és a hozzá tartozó privát kulcsból álló számpár. Egy ilyen pénztárcát állítottunk elő és jelenítettünk meg fent az Ön számára a Web böngészőben.",
+            "singletip2": "<b>A pénztárca biztonságos megőrzése</b> érdekében nyomtassa ki vagy más módon rögzítse a Ignition Coin címet és privát kulcsot. Fontos, hogy a privát kulcsból készítsen másolatot, és tárolja biztonságos helyen. Ez a webhely nem tud az ön privát kulcsairól. Ha ismeri a PGP-t, akkor egyben letöltheti az egész web lapot, és ellenőrizheti, hogy a webhely szerzője álatal írt valódi változatot töltötte-e le. Ehhez össze kell hasonlítania a HTML-ből képzett SHA256 zanzát a webhely láblécében hivatkozott, aláírt verzió történetben lévő SHA256 zanzával. Ha elhagyja/megfrissíti a webhelyet vagy megnyomja az 'Új cím előállítása' gombot, akkor egy új privát kulcs áll elő, és az előzőleg megjelenített privát kulcs elvész. A Ignition Coin címhez tartozó privát kulcsot titokban kell tartani. Bárki, aki megszerzi ezt a kulcsot, el tudja költeni az ehhez a címhez tartozó összes bitcoint. Ha kinyomtatja a pénztárcát, akkor tárolja egy villámzáras vízhatlan nylon-zacskóban. A papír pénztárcát tekintse úgy, mintha pénz lenne.",
+            "singletip3": "<b>Pénzt úgy tehet</b> a pénztárcájába, hogy másokkal bitcoinokat küldet erre a Ignition Coin címre.",
+            "singletip4": "<b>A pénztárca egyenlegét</b> úgy kérdezheti le, hogy elmegy a block-explorer.com vagy a explorer.litecoin.net weblapokra, és ott beadja ezt a Ignition Coin címet.",
+            "singletip5": "<b>Ha el akarja költeni a bitcoinjait,</b> akkor menjen a block-explorer.com weblapra, és a privát kulcson lévő teljes egyenleget töltse át (sweep) a weblapon lévő számlájára. A pénzt úgy is elköltheti, hogy letölti valamelyik népszerű p2p Ignition Coin klienst, és beimportálja a privát kulcsot a p2p kliens pénztárcájába. Ne feledje, hogy miután beimportálta a kulcsot a p2p Ignition Coin kliensbe, a kulcsot a p2p kliens a pénztárcában lévő többi kulccsal együtt tárolja. Pénz küldésekor a visszajáró pénzt a p2p kliens pénztárcájában lévő másik Ignition Coin címre fogják küldeni. Ekkor biztonsági másolatot kell készítenie a p2p kliens pénztárcáról, és a másolatot biztos helyen kell őriznie, mivel a maradék bitcoinjait a pénztárca kulcsai tárolják. Satoshi tanácsa, hogy pénztárcát soha ne töröljünk.",
 
             // paper wallet html
             "paperlabelhideart": "A grafika elrejtése?",
@@ -968,12 +968,12 @@ ninja.translator = {
             "bulklabelcsv": "Vesszővel elválasztott értékek (CSV):",
             "bulklabelformat": "Index, Cím, Privát cím (WIF)",
             "bulklabelq1": "Miért jó a Tömeges pénztárca használata, ha Ön bitcoint szeretne elfogadni a web-en?",
-            "bulka1": "Ha Ön bitcoint szeretne elfogadni a web-en, akkor a szokásos megoldás az, hogy installálja a hivatalos Litecoin kliens démont (\"bitcoind\"). Sok web szolgáltató nem támogatja a Litecoin démon installálását. Ráadásul, ha a Litecoin démont a web szerveren futtatja, akkor a privát kulcsai is a web szerveren lesznek tárolva, és a web szerver meghekkelésekor ellophatják őket. A Tömeges pénztárca használatakor csak a Litecoin címeket kell feltölteni a web szerverre, a privát kulcsokat nem. Így nem kell aggódnia, hogy ellopják a Litecoin pénztárcáját, ha betörnek a web szerverre.",
-            "bulklabelq2": "Hogyan használható a Tömeges pénztárca az Ön web helyén Litecoin elfogadásra?",
-            "bulklabela2li1": "A Tömeges pénztárcával állítson elő nagy mennyiségű (10,000+) Litecoin címet. Másolja át a vesszővel elválasztott adatokat (CSV) egy biztonságos szöveges állományba a számítógépére. A szöveges állományról készítsen mentést, és azt őrizze biztonságos környezetben.",
-            "bulklabela2li2": "Importálja be a Litecoin címeket a web szerverén futó adatbázisba. (A pénztárca privát kulcsait ne importája be, mert ezzel azt kockáztatja, hogy a hackerek ellopják a pénzét. Csak a Litecoin címeket importálja be, úgy, ahogy azt a ügyfelei látják majd.)",
+            "bulka1": "Ha Ön bitcoint szeretne elfogadni a web-en, akkor a szokásos megoldás az, hogy installálja a hivatalos Ignition Coin kliens démont (\"bitcoind\"). Sok web szolgáltató nem támogatja a Ignition Coin démon installálását. Ráadásul, ha a Ignition Coin démont a web szerveren futtatja, akkor a privát kulcsai is a web szerveren lesznek tárolva, és a web szerver meghekkelésekor ellophatják őket. A Tömeges pénztárca használatakor csak a Ignition Coin címeket kell feltölteni a web szerverre, a privát kulcsokat nem. Így nem kell aggódnia, hogy ellopják a Ignition Coin pénztárcáját, ha betörnek a web szerverre.",
+            "bulklabelq2": "Hogyan használható a Tömeges pénztárca az Ön web helyén Ignition Coin elfogadásra?",
+            "bulklabela2li1": "A Tömeges pénztárcával állítson elő nagy mennyiségű (10,000+) Ignition Coin címet. Másolja át a vesszővel elválasztott adatokat (CSV) egy biztonságos szöveges állományba a számítógépére. A szöveges állományról készítsen mentést, és azt őrizze biztonságos környezetben.",
+            "bulklabela2li2": "Importálja be a Ignition Coin címeket a web szerverén futó adatbázisba. (A pénztárca privát kulcsait ne importája be, mert ezzel azt kockáztatja, hogy a hackerek ellopják a pénzét. Csak a Ignition Coin címeket importálja be, úgy, ahogy azt a ügyfelei látják majd.)",
             "bulklabela2li3": "Web helyének vásárlókosarába vegye fel a bitcoinnal történő fizetés lehetőségét. Ha egy ügyfél bitcoinnal kíván fizetni, akkor \"fizetési címként\" az adatbázis egyik címét jelenítse meg, és a megrendelés mellett ezt a címet tárolja.",
-            "bulklabela2li4": "Most szüksége van arra, hogy értesítést kapjon, ha megérkezett a pénz. A Google-on keressen rá a \"Litecoin payment notification\" kifejezésre, és iratkozzon föl valamelyik szolgáltatóhoz, amely értesítést küld, ha bizonyos címekre Bitcoint küldtek. Számos ilyen szolgáltató van, amelyik Web szervíz, API, SMS, Email, stb. segítségével értesítést küld. Amint megérkezik az értesítés, amelynek automatikus figyelése beprogramozható, máris megkezdheti az ügyfél megrendelésének feldolgozását. Ha manuálisan szeretné ellenőrizni, hogy érkezett-e valamelyik címre pénz, akkor a Block Explorer-t használhatja. A CÍM helyébe írja azt a Litecoin címet, amelyet ellenőrizni szeretne. A tranzakció megerősítéséhez 10 és 60 perc közötti időre van szükség.<br />http://www.explorer.litecoin.net/address/CÍM<br /><br />A megerősítetlen tranzakciókat itt lehet megnézni: http://block-explorer.com/ <br />A tranzakció 30 másodpercen belül megjelenik.",
+            "bulklabela2li4": "Most szüksége van arra, hogy értesítést kapjon, ha megérkezett a pénz. A Google-on keressen rá a \"Ignition Coin payment notification\" kifejezésre, és iratkozzon föl valamelyik szolgáltatóhoz, amely értesítést küld, ha bizonyos címekre Bitcoint küldtek. Számos ilyen szolgáltató van, amelyik Web szervíz, API, SMS, Email, stb. segítségével értesítést küld. Amint megérkezik az értesítés, amelynek automatikus figyelése beprogramozható, máris megkezdheti az ügyfél megrendelésének feldolgozását. Ha manuálisan szeretné ellenőrizni, hogy érkezett-e valamelyik címre pénz, akkor a Block Explorer-t használhatja. A CÍM helyébe írja azt a Ignition Coin címet, amelyet ellenőrizni szeretne. A tranzakció megerősítéséhez 10 és 60 perc közötti időre van szükség.<br />http://www.explorer.litecoin.net/address/CÍM<br /><br />A megerősítetlen tranzakciókat itt lehet megnézni: http://block-explorer.com/ <br />A tranzakció 30 másodpercen belül megjelenik.",
             "bulklabela2li5": "Az Ön bitcoinjai biztonságos módon gyűlnek a blokkláncon. Használja az 1. lépés során előállított eredeti pénztárcát, ha szeretné őket elkölteni.",
 
             // brain wallet html
@@ -983,7 +983,7 @@ ninja.translator = {
             "brainlabelconfirm": "Erősítse meg a jelmondatot: ",
             "brainview": "Megjelenítés",
             "brainalgorithm": "Algoritmus: SHA256(jelmondat)",
-            "brainlabelbitcoinaddress": "Litecoin cím:",
+            "brainlabelbitcoinaddress": "Ignition Coin cím:",
             "brainlabelprivatekey": "Privát kulcs (WIF, tárca import formátumban):",
 
             // vanity wallet html
@@ -1001,7 +1001,7 @@ ninja.translator = {
             "vanitylabelradioadd": "Összeadás",
             "vanitylabelradiomultiply": "Szorzás",
             "vanitycalc": "A Kérkedő pénztárca kiszámítása",
-            "vanitylabelbitcoinaddress": "Kérkedő Litecoin cím:",
+            "vanitylabelbitcoinaddress": "Kérkedő Ignition Coin cím:",
             "vanitylabelnotesbitcoinaddress": "Fönt látható az ön új címe, mely magában foglalja a kívánt előtagot.",
             "vanitylabelpublickeyhex": "Kérkedő Publikus Kulcs (HEX):",
             "vanitylabelnotespublickeyhex": "A Publikus Kulcs hexadecimális alakban. ",
@@ -1021,10 +1021,10 @@ ninja.translator = {
             "detailkeyformats": "Kulcs formátumok: WIF, WIFC, HEX, B64, B6, MINI, BIP38",
             "detailview": "Részletek megjelenítése",
             "detailprint": "Nyomtatás",
-            "detaillabelnote1": "A Litecoin Privát Kulcs egy titkos szám, melyet csak Ön ismer. Számos különböző formátumban kódolható. Az alábbiakban megjelenítettük a a Privát Kulcshoz tartozó Litecoin Címet és Publikus kulcsot, valamint a Privát Kulcsot a legnépszerűbb kódolási formátumokban (WIF, WIFC, HEX, B64).",
-            "detaillabelnote2": "A Litecoin v0.6+ a publikus kulcsokat tömörített formátumban tárolja. A kliens az importprivkey/dumpprivkey parancsokkal a privát kulcsok importálását és exportálását is támogatja. Az exportált privát kulcsok formátumát csupán a Litecoin pénztárca verziószáma határozza meg.",
-            "detaillabelbitcoinaddress": "Litecoin cím:",
-            "detaillabelbitcoinaddresscomp": "Tömörített Litecoin cím:",
+            "detaillabelnote1": "A Ignition Coin Privát Kulcs egy titkos szám, melyet csak Ön ismer. Számos különböző formátumban kódolható. Az alábbiakban megjelenítettük a a Privát Kulcshoz tartozó Ignition Coin Címet és Publikus kulcsot, valamint a Privát Kulcsot a legnépszerűbb kódolási formátumokban (WIF, WIFC, HEX, B64).",
+            "detaillabelnote2": "A Ignition Coin v0.6+ a publikus kulcsokat tömörített formátumban tárolja. A kliens az importprivkey/dumpprivkey parancsokkal a privát kulcsok importálását és exportálását is támogatja. Az exportált privát kulcsok formátumát csupán a Ignition Coin pénztárca verziószáma határozza meg.",
+            "detaillabelbitcoinaddress": "Ignition Coin cím:",
+            "detaillabelbitcoinaddresscomp": "Tömörített Ignition Coin cím:",
             "detaillabelpublickey": "Publikus Kulcs (130 karakter [0-9A-F]):",
             "detaillabelpublickeycomp": "Tömörített Publikus Kulcs (66 karakter [0-9A-F]):",
             "detaillabelprivwif": "WIF Privát Kulcs <br />51 db base58 karakter, melynek kezdete",
@@ -1036,7 +1036,7 @@ ninja.translator = {
             "detaillabelpassphrase": "BIP38 jelmondat",
             "detaildecrypt": "BIP38 dekódolás",
             "detaillabelq1": "Hogyan lehet dobókockával pénztárcát készíteni? Mit jelent a B6 formátum?",
-            "detaila1": "Egy Litecoin pénztárca előállításakor nagyon fontos, hogy a felhasznált véletlen számok valóban véletlenek legyenek. A fizikai véletlen jobb, mint a számítógéppel előállított pszeudo-véletlen. Fizikai véletlen a legegyszerűbben egy dobókockával állítható elő. Ha szeretne egy Litecoin privát címet előállítani, akkor csupán egy dobókockára van szüksége, mellyel 99-szer kell dobni. Jegyezze fel minden egyes dobása eredményét. Az eredmények feljegyzésekor a következő szabályokat kövesse: 1->1, 2->2, 3->3, 4->4, 5->5, 6->0. Ha így tesz, akkor a privát kulcshoz tartozó véletlen számot B6 formátumban, vagyis 6-os számrendszerben rögzíti. Írja be ezt a 99 karakterből álló 6-os számrendszerbeli privát kulcsot a fenti szövegmezőbe, majd nyomja meg a 'Részletek megjelenítése' gombot. Ekkor megjelenik az a Litecoin cím, amely ehhez a privát kulcshoz tartozik. Érdemes felírni a WIF formátumú privát kulcsot is, mivel ezt szélesebb körben használják."
+            "detaila1": "Egy Ignition Coin pénztárca előállításakor nagyon fontos, hogy a felhasznált véletlen számok valóban véletlenek legyenek. A fizikai véletlen jobb, mint a számítógéppel előállított pszeudo-véletlen. Fizikai véletlen a legegyszerűbben egy dobókockával állítható elő. Ha szeretne egy Ignition Coin privát címet előállítani, akkor csupán egy dobókockára van szüksége, mellyel 99-szer kell dobni. Jegyezze fel minden egyes dobása eredményét. Az eredmények feljegyzésekor a következő szabályokat kövesse: 1->1, 2->2, 3->3, 4->4, 5->5, 6->0. Ha így tesz, akkor a privát kulcshoz tartozó véletlen számot B6 formátumban, vagyis 6-os számrendszerben rögzíti. Írja be ezt a 99 karakterből álló 6-os számrendszerbeli privát kulcsot a fenti szövegmezőbe, majd nyomja meg a 'Részletek megjelenítése' gombot. Ekkor megjelenik az a Ignition Coin cím, amely ehhez a privát kulcshoz tartozik. Érdemes felírni a WIF formátumú privát kulcsot is, mivel ezt szélesebb körben használják."
         },
 
         "jp": {
@@ -1117,7 +1117,7 @@ ninja.translator = {
             "bulklabela2li1": "大量生成タブで大量のLitecoinを生成(10,000+でも可)。出てくるCSVテキストをコピーして、安全なテキストエディターで貼り付けて、安全な場所に保存しておいて下さい。一つバックアップを取り、別の場所で保管しておく(強いパスワードのかかったzipなどで)",
             "bulklabela2li2": "Litecoinアドレスをウェブサーバーにアップロード。プライベートキーはアップロードしないで下さい。ユーザーに見せたい宛先用のアドレスのみをアップロードして下さい。",
             "bulklabela2li3": "サイトのショッピングカート機能にLitecoinのリンクを追加して下さい。クリックされた時、お値段と先ほどアップしたLitecoinアドレスが順番に出てくるようにしておいて下さい(1取引1アドレス)。注文の情報と一緒に、このアドレスも一緒に保存して、後で紐付けられるようにしておいて下さい。",
-            "bulklabela2li4": "後は支払いの通知を受けないと注文を通すか否か分かりません。グーグルで「Litecoin payment notification」と検索したら、SMS、メール、APIなどでLitecoinの支払いがあった際教えてくれます。これをコードの中に組み込んで、支払いがあったら注文を通すようにもできます。手動で送金があったかを見る場合、blockchain.infoに行き、宛先のアドレスを入力すれば、取引履歴から送金の事実を確認できます。大体送金の30秒後に表示され、10分～1時間の間に「確認」されます。",
+            "bulklabela2li4": "後は支払いの通知を受けないと注文を通すか否か分かりません。グーグルで「Ignition Coin payment notification」と検索したら、SMS、メール、APIなどでLitecoinの支払いがあった際教えてくれます。これをコードの中に組み込んで、支払いがあったら注文を通すようにもできます。手動で送金があったかを見る場合、blockchain.infoに行き、宛先のアドレスを入力すれば、取引履歴から送金の事実を確認できます。大体送金の30秒後に表示され、10分～1時間の間に「確認」されます。",
             "bulklabela2li5": "送られたLitecoinはブロックチェーンにて安全に保管されます。送金するには1番で作成したウォレットを何らかのLitecoinソフトに取り込んでご利用下さい。",
 
             // brain wallet html
@@ -1167,7 +1167,7 @@ ninja.translator = {
             "detailview": "詳細を表示",
             "detailprint": "印刷",
             "detaillabelnote1": "Litecoinプライベートキーはあなたにしか分からない秘密の鍵。色々な形式で表示することができ、下記で表示しているのはLitecoinアドレス、パブリックキー、プライベートキー、そして複数の形式でプライベートキーを表示します。(WIF, WIFC, HEX, B64)",
-            "detaillabelnote2": "Litecoin v0.6より圧縮したパブリックキーを保存している。なお、importprivkey / dumpprivkeyのコマンドを用いてプライベートキーのインポートとエクスポートもできる。エクスポートされるプライベートキーの形式はウォレットの作成時期とバージョンによって異なってくる。",
+            "detaillabelnote2": "Ignition Coin v0.6より圧縮したパブリックキーを保存している。なお、importprivkey / dumpprivkeyのコマンドを用いてプライベートキーのインポートとエクスポートもできる。エクスポートされるプライベートキーの形式はウォレットの作成時期とバージョンによって異なってくる。",
             "detaillabelbitcoinaddress": "Litecoinアドレス",
             "detaillabelbitcoinaddresscomp": "Litecoinアドレス(圧縮)",
             "detaillabelpublickey": "パブリックキー (130文字[0-9A-F])",
@@ -1263,7 +1263,7 @@ ninja.translator = {
             "bulklabela2li1": "    在批量钱包选项卡预生成大量莱特币地址（比如，一万个）。把生成的逗号分隔值清单（CSV）复制到一个安全的环境中，注意备份。",
             "bulklabela2li2": "    把地址列表导入到Web服务器上（注意，<b>不要</b>把私钥部分也一并导入，否则会有被盗的危险）",
             "bulklabela2li3": "    为你的客户提供一个莱特币支付的接口。每当一名客户选择使用莱特币支付，你就从你的数据库中提取一个地址，作为该客户专用的“付款地址”，并保存订单信息。",
-            "bulklabela2li4": "接下来你需要一个收款通知，联系相关服务的供应商（谷歌搜索“Litecoin payment notification”），它们可以监视指定地址的资金变动，并通过WebAPI、短信、电邮或者其他方式来提醒你，你也可以通过编程使一切自动化。在http://www.explorer.litecoin.net/address/地址 或者 https://block-explorer.com/address/地址 查看交易确认数。通常情况下，你能够在30秒之内看见交易，而根据你对安全的要求不同，你可能需要10分钟到1小时的时间等待交易确认。",
+            "bulklabela2li4": "接下来你需要一个收款通知，联系相关服务的供应商（谷歌搜索“Ignition Coin payment notification”），它们可以监视指定地址的资金变动，并通过WebAPI、短信、电邮或者其他方式来提醒你，你也可以通过编程使一切自动化。在http://www.explorer.litecoin.net/address/地址 或者 https://block-explorer.com/address/地址 查看交易确认数。通常情况下，你能够在30秒之内看见交易，而根据你对安全的要求不同，你可能需要10分钟到1小时的时间等待交易确认。",
             "bulklabela2li5": "莱特币在区块链上稳定之后，你就可以使用在第一步中生成的私钥来花费它们。",
 
             // brain wallet html
@@ -1312,7 +1312,7 @@ ninja.translator = {
             "detailview": "显示详情",
             "detailprint": "打印",
             "detaillabelnote1": "莱特币私钥应当是只有你知道的保密代码，这段代码有许多种不同的编码格式。下面会给出此私钥对应的地址、公钥，以及最流行的私钥编码格式(WIF, WIFC, HEX, B64, MINI)",
-            "detaillabelnote2": "Litecoin v0.6+ 存储压缩格式的公钥。现在客户端支持导入/导出私钥，命令是importprivkey/dumpprivkey，导出的格式可能因钱包文件版本而不同。",
+            "detaillabelnote2": "Ignition Coin v0.6+ 存储压缩格式的公钥。现在客户端支持导入/导出私钥，命令是importprivkey/dumpprivkey，导出的格式可能因钱包文件版本而不同。",
             "detaillabelbitcoinaddress": "莱特币地址",
             "detaillabelbitcoinaddresscomp": "莱特币地址(压缩格式)",
             "detaillabelpublickey": "公钥 (130位[0-9A-F]字符)",
@@ -1333,7 +1333,7 @@ ninja.translator = {
         "ru": {
             // javascript alerts or messages
             "testneteditionactivated": "Активирован режим TESTNET",
-            "paperlabelbitcoinaddress": "Адрес Litecoin кошелька:",
+            "paperlabelbitcoinaddress": "Адрес Ignition Coin кошелька:",
             "paperlabelprivatekey": "Приватный Ключ (в формате для импорта):",
             "paperlabelencryptedkey": "Зашифрованный Приватный Ключ (требуется пароль)",
             "bulkgeneratingaddresses": "Генерация адресов... ",
@@ -1450,7 +1450,7 @@ ninja.translator = {
             "detailview": "Детальная информация",
             "detailprint": "Распечатать",
             "detaillabelnote1": "Ваш Приватный Ключ - это секретная информация, которую знаете только Вы. Этот ключ можно закодировать несколькими способами. Ниже вы видите адрес Лайткоин и публичный ключ, которые соответствуют Вашему приватному ключу, если Ваш приватный ключ в одном из популярных форматов (WIF, WIFC, HEX, B64, MINI)",
-            "detaillabelnote2": "Приложение Litecoin версии 0.6 и выше хранит ключи в сжатом формате. Это приложение также поддерживает импорт и экспорт приватных ключей командами importprivkey/dumpprivkey. Формат экспортированного ключа определяется кошельком, который сгенерировал адрес Лайткоин.",
+            "detaillabelnote2": "Приложение Ignition Coin версии 0.6 и выше хранит ключи в сжатом формате. Это приложение также поддерживает импорт и экспорт приватных ключей командами importprivkey/dumpprivkey. Формат экспортированного ключа определяется кошельком, который сгенерировал адрес Лайткоин.",
             "detaillabelbitcoinaddress": "Адрес Лайткоин кошелька",
             "detaillabelbitcoinaddresscomp": "Короткий адрес Лайткоин кошелька",
             "detaillabelpublickey": "Публичный ключ (130 символов [0-9A-F]):",

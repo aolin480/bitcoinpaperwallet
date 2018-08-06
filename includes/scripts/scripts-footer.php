@@ -361,8 +361,8 @@ ninja.seeder = {
     // number of mouse movements to wait for
     seedLimit: (function () {
         var num = Crypto.util.randomBytes(12)[11];
-        return 10;
-        // return 200 + Math.floor(num);
+        // return 10; // debugging
+        return 200 + Math.floor(num);
     })(),
 
     seedCount: 0, // counter
@@ -378,8 +378,11 @@ ninja.seeder = {
         if (ninja.seeder.seedCount == ninja.seeder.seedLimit) {
             ninja.seeder.seedCount++;
             ninja.wallets.singlewallet.open();
+
             document.getElementById("generate").style.display = "none";
             document.getElementById("menu").style.visibility = "visible";
+            document.getElementById("menu").style.height = "auto";
+
             ninja.seeder.removePoints();
         }
         // seed mouse position X and Y when mouse movements are greater than 40ms apart.
@@ -635,12 +638,22 @@ ninja.wallets.singlewallet = {
 
             document.getElementById("btcaddress").innerHTML = bitcoinAddress;
             document.getElementById("btcprivwif").innerHTML = privateKeyWif;
+            document.getElementById("exampleprivkey").innerHTML = privateKeyWif;
 
             var keyValuePair = {
                 "qrcode_public": bitcoinAddress,
                 "qrcode_private": privateKeyWif
             };
             ninja.qrCode.showQrCode(keyValuePair, 4);
+
+            var event = new CustomEvent('single_wallet_generated', {
+                detail : {
+                    bitcoinAddress : bitcoinAddress,
+                    privateKeyWif : privateKeyWif                    
+                }
+            });
+            // Dispatch the event.
+            document.body.dispatchEvent(event);
         }
         catch (e) {
             // browser does not have sufficient JavaScript support to generate a bitcoin address
