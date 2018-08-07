@@ -390,13 +390,14 @@ ninja.seeder = {
             SecureRandom.seedTime();
             /* If we're using the body as the mouse randomization container, use clientY and clientX
             for the point position */
-            SecureRandom.seedInt16((evt.clientX * evt.clientY ));
-            ninja.seeder.showPoint(evt.clientX, evt.clientY);
+            // SecureRandom.seedInt16((evt.clientX * evt.clientY ));
+            // ninja.seeder.showPoint(evt.clientX, evt.clientY);
 
             /* Since we're using a div for the mouse randomization, we use pageX and pageY for
             the points to fix scrolling and point position */
-            // SecureRandom.seedInt16((evt.pageX * evt.pageY ));
-            // ninja.seeder.showPoint(evt.pageX, evt.pageY);
+            SecureRandom.seedInt16((evt.pageX * evt.pageY ));
+            ninja.seeder.showPoint(evt.pageX, evt.pageY);
+            
             ninja.seeder.seedCount++;
             ninja.seeder.lastInputTime = new Date().getTime();
             ninja.seeder.showPool();
@@ -649,7 +650,7 @@ ninja.wallets.singlewallet = {
             var event = new CustomEvent('single_wallet_generated', {
                 detail : {
                     bitcoinAddress : bitcoinAddress,
-                    privateKeyWif : privateKeyWif                    
+                    privateKeyWif : privateKeyWif
                 }
             });
             // Dispatch the event.
