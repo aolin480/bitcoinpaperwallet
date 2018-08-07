@@ -17,6 +17,12 @@ var Wallet = {
         $('#exampleprivkey').text(e.detail.privateKeyWif)
       }
     })
+
+    $('body').on('wallet_view_details', function(e) {
+      $('#detailarea .label').animate({
+        opacity: 1
+      })
+    })
   }
 }
 

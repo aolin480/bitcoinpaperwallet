@@ -397,7 +397,7 @@ ninja.seeder = {
             the points to fix scrolling and point position */
             SecureRandom.seedInt16((evt.pageX * evt.pageY ));
             ninja.seeder.showPoint(evt.pageX, evt.pageY);
-            
+
             ninja.seeder.seedCount++;
             ninja.seeder.lastInputTime = new Date().getTime();
             ninja.seeder.showPool();
@@ -1286,12 +1286,20 @@ ninja.wallets.detailwallet = {
             document.getElementById("detailaddresscomp").innerHTML = bitcoinAddressComp;
             document.getElementById("detailprivwifcomp").innerHTML = wifComp;
 
-            ninja.qrCode.showQrCode({
+            var bitcoinKeyInfo = {
                 "detailqrcodepublic": bitcoinAddress,
                 "detailqrcodepubliccomp": bitcoinAddressComp,
                 "detailqrcodeprivate": wif,
                 "detailqrcodeprivatecomp": wifComp
-            }, 4);
+            }
+
+            ninja.qrCode.showQrCode(bitcoinKeyInfo, 4);
+
+            var event = new CustomEvent('wallet_view_details', {
+                detail : bitcoinKeyInfo
+            });
+            // Dispatch the event.
+            document.body.dispatchEvent(event);
         }
     },
 
